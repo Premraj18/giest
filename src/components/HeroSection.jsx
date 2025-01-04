@@ -43,21 +43,21 @@ const HeroSection = () => {
             whileInView='animate'
           >
             <div className='flex flex-col items-center justify-center text-white pt-20 lg:pt-28 '>
-              <motion.h2 className='text-4xl text-center md:w-4/6 sm:text-6xl font-bold my-4 sm:my-10' variants={variants}>
-              We ensure innovation through learning and passion
+              <motion.h2 className='text-3xl text-center md:w-4/6 sm:text-5xl font-bold my-4 sm:my-10' variants={variants}>
+              Welcome to GIEST-2025
               </motion.h2>
               <motion.p className='px-5 md:px-0 md:w-3/5 text-center sm:mb-10 mb-1 sm:text-2xl font-light' variants={variants}
                 style={{
                     fontFamily: 'Outfit'
                 }}
               >
-              "Empowering Innovation in Electrical Engineering Together through learning and passion”
+              2025 IEEE 2nd International Conference on Green Industrial Electronics and Sustainable Technologies (GIEST-2025)” will be  organized by the Electrical Engineering Department, NIT Jamshedpur during 11th -13th October 2025.
               </motion.p>
               {/* <motion.p className='px-5 md:px-0 md:w-1/2 text-center mb-2 sm:mb-8 sm:text-lg' variants={variants}>
                 Our architectural design guidelines help you to create outstanding interior experiences to your home within your budget and the committed timeliness.
               </motion.p> */}
               <Link to='/about'>
-                 <motion.button className='bg-orange-600 hover:bg-orange-500 text-white sm:w-40 flex items-center justify-center gap-3 p-2 py-1 sm:py-2 mt-5 rounded-full' variants={variants} >Explore more <span className='pt-1'><LuMoveRight/></span></motion.button>
+                 <motion.button className='bg-blue-600 hover:bg-blue-500 text-white sm:w-40 flex items-center justify-center gap-3 p-2 py-1 sm:py-2 mt-5 rounded-full' variants={variants} >Explore more <span className='pt-1'><LuMoveRight/></span></motion.button>
               </Link>
             </div>
             {/* <div className='w-1/3'>
