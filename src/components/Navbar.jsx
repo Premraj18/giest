@@ -59,10 +59,12 @@ export default function Navbar() {
     }
   }
 
+  const [dropdownOpen, setDropdownOpen] = useState(false);
+
   return (
     <motion.header className='w-full py-1 fixed top-0 z-10 sm:px-10 px-5 flex justify-between items-center'
       variants={{
-        visible: { background: 'white', color: 'black' },
+        visible: { background: 'white', boxShadow: '0px 0.01px 5px rgba(24, 22, 22, 0.155)', color: 'black' },
         hidden: { background: 'white', boxShadow: '0px 0.01px 5px rgba(24, 22, 22, 0.155)', color: 'black' },
       }}
       animate={hidden ? "hidden" : "visible"}
@@ -80,26 +82,85 @@ export default function Navbar() {
               <img src={`${subpage === '' && hidden == !true ? '/ieeesil.png' : '/ieeesil.png'}`} alt="img" className={`md:w-32 w-16`} />
             </Link>
           </div>
-          <div className='md:flex text-lg flex-1 justify-end items-center mr-10 space-x-12 hidden'>
+          <div className='md:flex flex-1 justify-end items-center mr-3 space-x-6 hidden'>
             <Link to={'/'} className={Linkness('home')}>
-              <p className={`lg:text-lg text-base text-black`}>Home</p>
+              <p className={`text-base text-black`}>Home</p>
             </Link>
-            <Link to={'/about'} className={Linkness('about')}>
-              <p className={`lg:text-lg text-base text-black`}>About </p>
+            <Link to={'/authors'} className={Linkness('authors')}>
+              <p className={`text-base text-black`}>Authors </p>
             </Link>
             <Link to={'/impdate'} className={Linkness('impdate')}>
-              <p className={`lg:text-lg text-base text-black`}>Important Dates </p>
+              <p className={`text-base text-black`}>Important Dates </p>
             </Link>
+            
+
+            {/* <Link to={'/committee'} className={Linkness('committee')}>
+              <p className={`text-base text-black`}>Committee </p>
+            </Link> */}
+
+            <div className="relative">
+              {/* Dropdown Trigger */}
+              <button
+                className="flex items-center text-base text-black"
+                onClick={() => setDropdownOpen(!dropdownOpen)}
+              >
+                Committee
+                <svg
+                  className="w-4 h-4 ml-2"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M19 9l-7 7-7-7"
+                  />
+                </svg>
+              </button>
+
+              {/* Dropdown Menu */}
+              {dropdownOpen && (
+                <div className="absolute mt-2 bg-white text-gray-800 rounded shadow-lg w-40">
+                  <Link
+                    to="/international-advisory-committee"
+                    className="block px-4 py-2 hover:bg-gray-100"
+                  >
+                    International advisory committee
+                  </Link>
+                  <Link
+                    to="/national-advisory-committee"
+                    className="block px-4 py-2 hover:bg-gray-100"
+                  >
+                    National advisory committee
+                  </Link>
+                  <Link
+                    to="/organizing-Committee"
+                    className="block px-4 py-2 hover:bg-gray-100"
+                  >
+                    Organizing Committee
+                  </Link>
+                </div>
+              )}
+            </div>
+
             <Link to={'/speaker'} className={Linkness('speaker')}>
-              <p className={`lg:text-lg text-base text-black`}>Speakers </p>
+              <p className={`text-base text-black`}>Speakers </p>
             </Link>
 
-            <Link to={'/committee'} className={Linkness('committee')}>
-              <p className={`lg:text-lg text-base text-black`}>Committee </p>
+            <Link to={'/workshop'} className={Linkness('workshop')}>
+              <p className={`text-base text-black`}>Workshop&Tutorials </p>
             </Link>
-
-            <Link to={'/contact'} className={Linkness('contact')}>
-              <p className={`lg:text-lg text-base text-black`}>Contact Us </p>
+            <Link to={'/sponsorship'} className={Linkness('sponsorship')}>
+              <p className={`text-base text-black`}>Sponsership </p>
+            </Link>
+            <Link to={'/accomodation'} className={Linkness('accomodation')}>
+              <p className={`text-base text-black`}>Accomodation </p>
+            </Link>
+            <Link to={'/placetovisit'} className={Linkness('placetovisit')}>
+              <p className={`text-base text-black`}>Place to Visit </p>
             </Link>
           </div>
         </div>
@@ -116,31 +177,86 @@ export default function Navbar() {
         <div ref={ref} className="w-full md:hidden h-[100vh] sideCart bg-white absolute top-0 right-0 py-10 transition-transform transform translate-x-full ">
           <span onClick={toggleCart} className="absolute top-8 right-4 cursor-pointer"><RxCross2 size={30} /></span>
           <div className='flex flex-col border-t-2 py-5 justify-center items-center mt-12 gap-10'>
-            <div className='flex flex-col text-lg items-center justify-center gap-y-6'>
+            <div className='flex flex-col text-lg items-center justify-center gap-y-5'>
               <Link to={'/'} className={Linkness('home')}>
-                <p className={`lg:text-lg text-base text-black`}>Home</p>
+                <p className={`text-base text-black`}>Home</p>
               </Link>
-              <Link to={'/about'} className={Linkness('about')}>
-                <p className={`lg:text-lg text-base text-black`}>About </p>
+              <Link to={'/authors'} className={Linkness('authors')}>
+                <p className={`text-base text-black`}>Authors </p>
               </Link>
               <Link to={'/impdate'} className={Linkness('impdate')}>
-                <p className={`lg:text-lg text-base text-black`}>Important Dates </p>
+                <p className={`text-base text-black`}>Important Dates </p>
               </Link>
+
+              {/* <Link to={'/committee'} className={Linkness('committee')}>
+              <p className={`text-base text-black`}>Committee </p>
+            </Link> */}
+
+              <div className="relative">
+                {/* Dropdown Trigger */}
+                <button
+                  className="flex items-center text-base text-black"
+                  onClick={() => setDropdownOpen(!dropdownOpen)}
+                >
+                  Committee
+                  <svg
+                    className="w-4 h-4 ml-2"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M19 9l-7 7-7-7"
+                    />
+                  </svg>
+                </button>
+
+                {/* Dropdown Menu */}
+                {dropdownOpen && (
+                  <div className="absolute mt-2 bg-white text-gray-800 rounded shadow-lg w-40">
+                    <Link
+                      to="/international-advisory-committee"
+                      className="block px-4 py-2 hover:bg-gray-100"
+                    >
+                      International advisory committee
+                    </Link>
+                    <Link
+                      to="/national-advisory-committee"
+                      className="block px-4 py-2 hover:bg-gray-100"
+                    >
+                      National advisory committee
+                    </Link>
+                    <Link
+                      to="/organizing-Committee"
+                      className="block px-4 py-2 hover:bg-gray-100"
+                    >
+                      Organizing Committee
+                    </Link>
+                  </div>
+                )}
+              </div>
+
               <Link to={'/speaker'} className={Linkness('speaker')}>
-                <p className={`lg:text-lg text-base text-black`}>Speakers </p>
+                <p className={`text-base text-black`}>Speakers </p>
               </Link>
 
-              <Link to={'/committee'} className={Linkness('committee')}>
-                <p className={`lg:text-lg text-base text-black`}>Committee </p>
+              <Link to={'/workshop'} className={Linkness('workshop')}>
+                <p className={`text-base text-black`}>Workshop&Tutorials </p>
+              </Link>
+              <Link to={'/sponsorship'} className={Linkness('sponsorship')}>
+                <p className={`text-base text-black`}>Sponsership </p>
+              </Link>
+              <Link to={'/accomodation'} className={Linkness('accomodation')}>
+                <p className={`text-base text-black`}>Accomodation </p>
+              </Link>
+              <Link to={'/placetovisit'} className={Linkness('placetovisit')}>
+                <p className={`text-base text-black`}>Place to Visit </p>
               </Link>
 
-              <Link to={'/contact'} className={Linkness('contact')}>
-                <p className={`lg:text-lg text-base text-black`}>Contact Us </p>
-              </Link>
-
-              {/* <Link to={'/contact'} className={Linkness('contact')}>
-                <p className='lg:text-lg text-base'>Contact Us </p>
-              </Link> */}
             </div>
           </div>
         </div>

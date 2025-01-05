@@ -3,7 +3,7 @@ import Layout from '../components/Layout'
 import HeroSection from '../components/HeroSection'
 import About from '../components/About'
 import Countdown from '../components/Countdown'
-import ImpDates from '../components/ImpDates'
+import Contact from '../components/Contact'
 
 const Home = () => {
 
@@ -12,7 +12,7 @@ const Home = () => {
       <HeroSection/>
       <About/>
       <Countdown/>
-      <ImpDates/>
+      <Contact/>
     </Layout>
   )
 }

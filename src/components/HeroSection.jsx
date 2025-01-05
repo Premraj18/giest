@@ -37,7 +37,7 @@ const HeroSection = () => {
         <div className='flex flex-col justify-start items-center h-full w-full' style={{
           background: 'linear-gradient(to bottom, rgba(33, 33, 34, 0.774), rgba(33, 33, 34, 0.774))'
         }}>
-          <motion.div className='flex text-black items-center justify-center pt-28 md:pt-32'
+          <motion.div className='flex text-black items-center justify-center pt-28 md:pt-40'
             variants={variants}
             initial='initial'
             whileInView='animate'
@@ -56,9 +56,9 @@ const HeroSection = () => {
               {/* <motion.p className='px-5 md:px-0 md:w-1/2 text-center mb-2 sm:mb-8 sm:text-lg' variants={variants}>
                 Our architectural design guidelines help you to create outstanding interior experiences to your home within your budget and the committed timeliness.
               </motion.p> */}
-              <Link to='/about'>
+              {/* <Link to='/about'>
                  <motion.button className='bg-blue-600 hover:bg-blue-500 text-white sm:w-40 flex items-center justify-center gap-3 p-2 py-1 sm:py-2 mt-5 rounded-full' variants={variants} >Explore more <span className='pt-1'><LuMoveRight/></span></motion.button>
-              </Link>
+              </Link> */}
             </div>
             {/* <div className='w-1/3'>
               <img src="/hero1.webp" alt="" className='rounded-sm h-[40vh] mb-12' />

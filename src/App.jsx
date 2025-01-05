@@ -1,64 +1,49 @@
 import React, { useEffect, useState } from 'react'
 import './App.css'
-import { BallTriangle,Bars } from 'react-loader-spinner';
+import { BallTriangle, Bars } from 'react-loader-spinner';
 import {
   HashRouter as Router,
   Route,
   Routes,
 } from "react-router-dom";
-import {Toaster} from 'react-hot-toast';
+import { Toaster } from 'react-hot-toast';
 
 import Home from './pages/Home';
-import About from './pages/About US/About';
-import SponsorCrausal from './pages/sponser/SponerCrausal';
-import Contact from './pages/Contact/Contact';
-import Gallery from './pages/Gallery/Gallery';
-import Event from './pages/Event/Event';
-import Team from './pages/OurTeam/Team';
+import Author from './pages/Author/Author';
+import Impdate from './pages/impdates/Impdates';
+import Workshop from './pages/workshop/Workshop';
+import Speakers from './pages/speakers/Speakers';
+import Sponser from './pages/sponsors/Sponser';
+import Accomodation from './pages/accomodation/Accomodation';
+import Placetovisit from './pages/placetovisit/Placetovisit';
+import Internationaladvisorycommittee from './pages/international-advisory-committee/Internationaladvisorycommittee';
+import Nationaladvisorycommittee from './pages/Nationaladvisorycommittee';
+import OrganizingCommittee from './pages/organizing-Committee/OrganizingCommittee';
+
 
 function App() {
-  const [loading, setloading] = useState(true);
-  useEffect(() => {
-    setTimeout(() => {
-      setloading(false);
-    }, 2000)
-  }, [])
   return (
     <>
       <div>
-        {
-          loading && (
-            <div className='h-screen w-full bg-stone-200 flex justify-center items-center'>
-              <Bars
-                height={100}
-                width={100}
-                radius={5}
-                color="orange"
-                ariaLabel="ball-triangle-loading"
-                wrapperStyle={{}}
-                wrapperClass=""
-                visible={true}
-              />
-            </div>
-          )
-        }
-        {
-          !loading && (
-            <Router>
-              {/* <Media/> */}
-              <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/about" element={<About />} />
-                <Route path="/sponser" element={<SponsorCrausal />} />
-                <Route path="/contact" element={<Contact />} />
-                <Route path="/gallery" element={<Gallery />} />
-                <Route path="/event" element={<Event />} />
-                <Route path="/team" element={<Team />} />
-              </Routes>
-              <Toaster/>
-            </Router>
-          )
-        }
+
+        <Router>
+          {/* <Media/> */}
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/authors" element={<Author />} />
+            <Route path="/impdate" element={<Impdate />} />
+            <Route path="/speaker" element={<Speakers />} />
+            <Route path="/workshop" element={<Workshop />} />
+            <Route path="/sponsorship" element={<Sponser />} />
+            <Route path="/accomodation" element={<Accomodation />} />
+            <Route path="/placetovisit" element={<Placetovisit />} />
+            <Route path="/international-advisory-committee" element={<Internationaladvisorycommittee />} />
+            <Route path="/national-advisory-committee" element={<Nationaladvisorycommittee />} />
+            <Route path="/organizing-Committee" element={<OrganizingCommittee />} />
+          </Routes>
+          <Toaster />
+        </Router>
+
       </div>
     </>
   )

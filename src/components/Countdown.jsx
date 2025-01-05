@@ -31,9 +31,9 @@ const Countdown = () => {
 
   return (
     <div>
-      <div className="w-full sm:mt-0 bg-slate-100 py-20">
+      <div className="w-full sm:mt-0 bg-slate-50 md:py-20 py-5">
         <div className="w-full">
-          <h2 className="w-full text-3xl text-center text-blue-600 font-semibold text-blue-50-600 md:text-5xl pb-10">
+          <h2 className="w-full text-3xl text-center text-blue-600 font-semibold text-blue-50-600 md:text-4xl pb-10">
             Conference Countdown
           </h2>
         </div>

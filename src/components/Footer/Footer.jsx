@@ -21,23 +21,23 @@ const Footer = () => {
         <div className="flex flex-col items-center md:items-start">
           <p className="text-lg font-semibold my-3">Useful Links</p>
           <ul className="flex flex-wrap md:flex-col gap-2 text-sm justify-center ">
-            <Link to='/about'>
-              <li className="flex items-center gap-2 cursor-pointer "><BiRightArrowAlt className="text-orange-600 hidden md:block" />About us <span className="md:hidden text-xl" >|</span></li>
+            <Link to='/authors'>
+              <li className="flex items-center gap-2 cursor-pointer "><BiRightArrowAlt className="text-orange-600 hidden md:block" />Authors <span className="md:hidden text-xl" >|</span></li>
             </Link>
-            <Link to='/event'>
+            <Link to='/speaker'>
               <li className="flex items-center gap-2 cursor-pointer "><BiRightArrowAlt className="text-orange-600 hidden md:block" />Speakers <span className="md:hidden text-xl" >|</span></li>
             </Link>
             {/* <Link to='/sponser'>
               <li className="flex items-center gap-2 cursor-pointer "><BiRightArrowAlt className="text-orange-600 hidden md:block" />Sponser us <span className="md:hidden text-xl" >|</span></li>
             </Link> */}
-            <Link to='/gallery'>
-              <li className="flex items-center gap-2 cursor-pointer "><BiRightArrowAlt className="text-orange-600 hidden md:block" />Committee <span className="md:hidden text-xl" >|</span></li>
+            <Link to='/sponsorship'>
+              <li className="flex items-center gap-2 cursor-pointer "><BiRightArrowAlt className="text-orange-600 hidden md:block" />Sponsors <span className="md:hidden text-xl" >|</span></li>
             </Link>
-            <Link to='/team'>
+            <Link to='/impdate'>
               <li className="flex items-center gap-2 cursor-pointer "><BiRightArrowAlt className="text-orange-600 hidden md:block" />Imp Dates<span className="md:hidden text-xl" >|</span></li>
             </Link>
-            <Link to='/contact'>
-              <li className="flex items-center gap-2 cursor-pointer pt-[5px] md:pt-0 "><BiRightArrowAlt className="text-orange-600 hidden md:block" />Contact us <span className="md:hidden text-xl" ></span></li>
+            <Link to='/workshop'>
+              <li className="flex items-center gap-2 cursor-pointer pt-[5px] md:pt-0 "><BiRightArrowAlt className="text-orange-600 hidden md:block" />Workshop <span className="md:hidden text-xl" ></span></li>
             </Link>
           </ul>
         </div>
@@ -52,9 +52,9 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className=" text-sm md:text-base flex flex-col md:flex-row items-center justify-between md:px-20 py-4 border-t-2 border-gray-400 mx-20">
+      <div className=" text-sm md:text-base flex flex-col md:flex-row items-center justify-between md:px-20 py-4 border-t-2 border-gray-400 md:mx-20 mx-5">
         <p className="flex items-center"><BiCopyright className="mx-2 mt-1 text-lg" /> Copyright GIEST All Rights Reserved</p>
-        <p className="mt-4 md:mt-0">Design and develop by <span className="text-orange-600">Web Team </span> EES</p>
+        <p className="mt-4 md:mt-0">Design and develop by <a href="https://www.linkedin.com/in/prem-raj-a802682a7/" target="_blank" className="text-orange-600">Prem Raj </a></p>
       </div>
     </footer>
   );

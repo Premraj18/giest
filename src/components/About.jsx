@@ -1,59 +1,60 @@
 /* eslint-disable react/no-unescaped-entities */
 // eslint-disable-next-line no-unused-vars
 import React from 'react'
-import { BiCheckDouble } from "react-icons/bi";
-import { Link } from 'react-router-dom';
-import { motion } from 'framer-motion'
-import { LuMoveRight } from 'react-icons/lu';
-//this is naman
-const variants = {
-    initial: {
-        x: -200,
-        opacity: 0,
-    },
-    animate: {
-        x: 0,
-        opacity: 1,
-        transition: {
-            duration: 0.8,
-            staggerChildren: 0.1,
-        },
-    },
-}
 
 const About = () => {
     return (
-        <motion.div className=' bg-white flex flex-col justify-center items-center py-20'
-          variants={variants}
-          initial='initial'
-          whileInView='animate'
-        >
+        <div className=' bg-white flex flex-col justify-center items-center py-20'>
             <h3 className='text-4xl font-semibold text-blue-600 mb-10'>About Conference</h3>
-            <div className='flex w-full flex-col lg:flex-row justify-center items-center px-5 lg:px-20 gap-8 gap-y-14 lg:gap-y-0'>
-                <motion.div className='lg:w-2/5 lg:text-lg' variants={variants}>
-                    <motion.p variants={variants}>GIEST-2025 is the IEEE International Conference on Green Industrial Electronics and Sustainable Technologies (GIEST-2025) will be organized by the IEEE Kolkata Section-Silchar Industrial Electronics Society Chapter in association with the Department of Electrical Engineering, NIT Jamshedpur and IEEE Student Branch.</motion.p>
-                    <motion.p className='my-3' variants={variants}>Why Attend?</motion.p>
-                    <motion.p className='my-3' variants={variants}>This international platform fosters collaboration and innovation, providing:</motion.p>
-                    <div className='text-base flex flex-col gap-3'>
-                        <motion.p className='flex items-center gap-x-3' variants={variants}><span className='text-blue-600 text-xl'><BiCheckDouble/></span> Development of Technical Expertise: Enhance your technical skills by engaging with real-world challenges. </motion.p>
-                        <motion.p className='flex items-center gap-x-3' variants={variants}><span className='text-blue-600 text-xl'><BiCheckDouble/></span> Networking Opportunities: Connect with like-minded individuals driven by innovation in electrical engineering and technology.  </motion.p>
-                        <motion.p className='flex items-center gap-x-3' variants={variants}><span className='text-blue-600 text-xl'><BiCheckDouble/></span> Representation: Showcase your skills and represent your team, yourself, and your organization in various prestigious competitions and events.</motion.p>
-                    </div>
-                </motion.div>
-                <motion.div className='lg:w-2/5 lg:text-lg' variants={variants}>
-                   <motion.p variants={variants}>The prestigious annual international conference organized by the IEEE Kolkata 
-                    Section-Silchar Industrial Electronics Society Chapter will take place at NIT Jamshedpur on the 25th and 26th of October 2025. 
-                    This hybrid-mode event is technically co-sponsored by the IEEE Kolkata Section and IEEE Silchar Subsection. </motion.p>
+            <div className='flex w-full flex-col lg:flex-row justify-center items-center px-3 lg:px-20 gap-8 gap-y-14 lg:gap-y-0'>
+                <div className='lg:w-2/5 lg:text-lg' >
+                    <p >GIEST-2025 is the “2025 IEEE 2nd International Conference on Green
+                        Industrial Electronics and Sustainable Technologies” will be  organized by the
+                        <span className='font-bold'> Electrical Engineering Department, NIT Jamshedpur</span>
+                        in association with IEEE Kolkata Section-Silchar Industrial Electronics Society Chapter
+                        and Student Branch, NIT Jamshedpur. </p>
 
-                   <motion.p className='pt-6' variants={variants}>The conference aims to unite researchers, professionals, and industry leaders from esteemed institutions and global organizations. 
-                    Participants will include executives from the energy sector, manufacturing industries, and electrical power companies. 
-                    Together, they will exchange ideas, discuss innovations, and explore advanced techniques to address contemporary challenges in the field of electrical engineering and related industries.</motion.p>
-                    <Link to='/about' className=''>
-                        <motion.button className='bg-blue-600 hover:bg-blue-500 text-white sm:w-40 flex items-center justify-center gap-3 p-2 py-1 sm:py-2 mt-5 rounded-full' >Learn more <span className='pt-1'><LuMoveRight/></span></motion.button>
-                    </Link>
-                </motion.div>
+                    <p >This is the flagship annual international conference of the
+                        IEEE Kolkata Section-Silchar Industrial Electronics Society Chapter and will be
+                        conducted in hybrid mode with the technical co-sponsorship of IEEE Silchar Subsection,
+                        <span className='font-bold'>from 11th to 13th October 2025</span>. </p>
+
+                </div>
+                <div className='lg:w-2/5 lg:text-lg' >
+                    <p >The  main objective of this international conference is to foster collaboration among researchers from prestigious
+                        institutes and industries worldwide. The conference aims to provide a platform for professionals and executives from the energy sector,
+                        manufacturing industries, and electrical power companies to share innovative ideas and information focused on techniques for handling today’s
+                        challenges in green industrial electronics and sustainable technologies. </p>
+                </div>
+
+
             </div>
-        </motion.div>
+            <div className='flex flex-col md:justify-center md:items-center px-3 md:px-24 mt-10'>
+                <h3 className='text-4xl font-semibold text-blue-600 mb-10'>About Institute</h3>
+                <p>The National Institute of Technology Jamshedpur, established on August 15, 1960, was
+                    formerly known as the Regional Institute of Technology (RIT) Jamshedpur.
+                    It attained the status of an Institution of National Importance through the National
+                    Institutes of Technology Act, 2007 (Act 29 of 2007). The institute aims to cultivate
+                    young engineers for the nation's economic advancement. Located in the western part of Jamshedpur,
+                    NIT Jamshedpur's campus spans 341.3 acres, with the Kharkai river flowing nearby and picturesque
+                    hills and forests in the backdrop, providing an ideal setting for academic pursuits and research. The institute offers 
+                    degrees in various disciplines, including B.Tech (Hons.), M.Tech, MSc, MCA, and PhD in fields such as Civil Engineering, 
+                    Computer Science & Engineering, Electrical Engineering, Electronics & Communication Engineering, Mechanical Engineering, Metallurgical & Materials Engineering, Production Engineering, Chemistry, Mathematics, Physics, among others. NIT Jamshedpur is on a trajectory of growth with NBA accreditation for three undergraduate courses and ongoing research projects supported by DST and ministries.
+                </p>
+
+            </div>
+
+            <div className='flex flex-col md:justify-center md:items-center px-3 md:px-24 mt-10'>
+                <h3 className='text-4xl font-semibold text-blue-600 mb-10'>About Department</h3>
+                <p>The Department of Electrical Engineering was started in 1960. The department has been consistently producing quality 
+                    engineers since its inception and is also involved in research and development activities. 
+                    The alumni of the department are well placed in both public and private sectors. 
+                    In addition to the UG Programme the department runs PG Programme in Power Systems and Power 
+                    Electronics and Drives and Ph.D. program in different areas of specialization.
+                </p>
+
+            </div>
+        </div>
     )
 }
 
