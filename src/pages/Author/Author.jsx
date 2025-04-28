@@ -4,7 +4,7 @@ import Layout from '../../components/Layout'
 const Author = () => {
     return (
         <Layout>
-            <div className='min-h-[80vh] pt-28 py-10 flex justify-center bg-gray-50'>
+            <div className='min-h-[80vh] pt-44 py-10 flex justify-center bg-gray-50'>
                 <div className='flex flex-col px-3 md:px-20 lg:px-40'>
                     <h2 className='text-2xl font-semibold'>Call for Papers</h2>
                     <p className='my-5'>We are pleased to invite authors to submit their original research work for GIEST 2025. This is an excellent opportunity to showcase your research and contribute to advancements in your field.</p>

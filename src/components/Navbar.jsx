@@ -70,19 +70,34 @@ export default function Navbar() {
       animate={hidden ? "hidden" : "visible"}
       transition={{ duration: 0.1, }}
     >
-      <nav className='flex w-full md:justify-center justify-between items-center screen-max-width'>
+      <nav className='flex flex-col md:flex-row w-full md:justify-center justify-between items-center screen-max-width'>
 
         {/* destop view */}
-        <div className='w-full flex justify-between'>
-          <div className="flex items-center gap-6 md:ml-10">
+        <div className='w-full flex flex-col items-center justify-between'>
+          <div className="flex flex-wrap items-center justify-center gap-6 md:ml-10 py-2">
             <Link to='/'>
-              <img src={`${subpage === '' && hidden == !true ? '/ies1.png' : '/ies1.png'}`} alt="img" className={`md:w-20 w-16`} />
+              <img src={`${subpage === '' && hidden == !true ? '/giestlogo.png' : '/giestlogo.png'}`} alt="img" className={`md:w-20 w-10`} />
             </Link>
             <Link to='/'>
-              <img src={`${subpage === '' && hidden == !true ? '/ieeesil.png' : '/ieeesil.png'}`} alt="img" className={`md:w-32 w-16`} />
+              <img src={`${subpage === '' && hidden == !true ? '/ias.png' : '/ias.png'}`} alt="img" className={`md:w-32 w-10`} />
+            </Link>
+            <Link to='/'>
+              <img src={`${subpage === '' && hidden == !true ? '/ieee.png' : '/ieee.png'}`} alt="img" className={`md:w-20 w-10`} />
+            </Link>
+            <Link to='/'>
+              <img src={`${subpage === '' && hidden == !true ? '/ieeenitm.png' : '/ieeenitm.png'}`} alt="img" className={`md:w-32 w-10`} />
+            </Link>
+            <Link to='/'>
+              <img src={`${subpage === '' && hidden == !true ? '/ies1.png' : '/ies1.png'}`} alt="img" className={`md:w-20 w-10`} />
+            </Link>
+            <Link to='/'>
+              <img src={`${subpage === '' && hidden == !true ? '/ies2.png' : '/ies2.png'}`} alt="img" className={`md:w-32 w-10`} />
+            </Link>
+            <Link to='/'>
+              <img src={`${subpage === '' && hidden == !true ? '/ieeesil.png' : '/ieeesil.png'}`} alt="img" className={`md:w-32 w-10`} />
             </Link>
           </div>
-          <div className='md:flex flex-1 justify-end items-center mr-3 space-x-6 hidden'>
+          <div className='md:flex flex-1 justify-end items-center mr-3 space-x-10 mb-2 hidden'>
             <Link to={'/'} className={Linkness('home')}>
               <p className={`text-base text-black`}>Home</p>
             </Link>

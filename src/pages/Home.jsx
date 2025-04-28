@@ -4,6 +4,7 @@ import HeroSection from '../components/HeroSection'
 import About from '../components/About'
 import Countdown from '../components/Countdown'
 import Contact from '../components/Contact'
+import Regfee from '../components/Regfee'
 
 const Home = () => {
 
@@ -12,6 +13,7 @@ const Home = () => {
       <HeroSection/>
       <About/>
       <Countdown/>
+      <Regfee/>
       <Contact/>
     </Layout>
   )

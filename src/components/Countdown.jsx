@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { LuMoveRight } from "react-icons/lu";
 
 const Countdown = () => {
-  const targetDate = "2025-10-25T00:00:00"; // Set your target date here
+  const targetDate = "2025-10-11T00:00:00"; // Set your target date here
 
   // Calculate the remaining time
   const calculateTimeLeft = () => {
