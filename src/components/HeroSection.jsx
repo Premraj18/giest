@@ -37,7 +37,7 @@ const HeroSection = () => {
         <div className='flex flex-col justify-start items-center h-full w-full' style={{
           background: 'linear-gradient(to bottom, rgba(33, 33, 34, 0.774), rgba(33, 33, 34, 0.774))'
         }}>
-          <motion.div className='flex text-black items-center justify-center pt-28 md:pt-40'
+          <motion.div className='flex text-black items-center justify-center pt-36 md:pt-44'
             variants={variants}
             initial='initial'
             whileInView='animate'
