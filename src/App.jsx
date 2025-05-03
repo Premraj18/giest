@@ -13,6 +13,7 @@ import Author from './pages/Author/Author';
 import Impdate from './pages/impdates/Impdates';
 import Workshop from './pages/workshop/Workshop';
 import Speakers from './pages/speakers/Speakers';
+import SpecialSession from './pages/Specialsession/specialsession';
 import Sponser from './pages/sponsors/Sponser';
 import Accomodation from './pages/accomodation/Accomodation';
 import Placetovisit from './pages/placetovisit/Placetovisit';
@@ -33,6 +34,7 @@ function App() {
             <Route path="/authors" element={<Author />} />
             <Route path="/impdate" element={<Impdate />} />
             <Route path="/speaker" element={<Speakers />} />
+            <Route path="/specialSession" element={<SpecialSession/>} />
             <Route path="/workshop" element={<Workshop />} />
             <Route path="/sponsorship" element={<Sponser />} />
             <Route path="/accomodation" element={<Accomodation />} />

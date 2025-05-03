@@ -88,6 +88,9 @@ export default function Navbar() {
               <img src={`${subpage === '' && hidden == !true ? '/ieeenitm.png' : '/ieeenitm.png'}`} alt="img" className={`md:w-32 w-10`} />
             </Link>
             <Link to='/'>
+              <img src={`${subpage === '' && hidden == !true ? '/nitjsrlogo.png' : '/nitjsrlogo.png'}`} alt="img" className={`md:w-16 w-10`} />
+            </Link>
+            <Link to='/'>
               <img src={`${subpage === '' && hidden == !true ? '/ies1.png' : '/ies1.png'}`} alt="img" className={`md:w-20 w-10`} />
             </Link>
             <Link to='/'>
@@ -107,11 +110,15 @@ export default function Navbar() {
             <Link to={'/impdate'} className={Linkness('impdate')}>
               <p className={`text-base text-black`}>Important Dates </p>
             </Link>
-            
+
 
             {/* <Link to={'/committee'} className={Linkness('committee')}>
               <p className={`text-base text-black`}>Committee </p>
             </Link> */}
+
+            <Link to={'/specialSession'} className={Linkness('specialSession')}>
+              <p className={`text-base text-black`}>Special Session</p>
+            </Link>
 
             <div className="relative">
               {/* Dropdown Trigger */}
@@ -161,10 +168,6 @@ export default function Navbar() {
               )}
             </div>
 
-            <Link to={'/speaker'} className={Linkness('speaker')}>
-              <p className={`text-base text-black`}>Speakers </p>
-            </Link>
-
             <Link to={'/workshop'} className={Linkness('workshop')}>
               <p className={`text-base text-black`}>Workshop&Tutorials </p>
             </Link>
@@ -206,6 +209,9 @@ export default function Navbar() {
               {/* <Link to={'/committee'} className={Linkness('committee')}>
               <p className={`text-base text-black`}>Committee </p>
             </Link> */}
+              <Link to={'/specialSession'} className={Linkness('specialSession')}>
+                <p className={`text-base text-black`}>Special Session </p>
+              </Link>
 
               <div className="relative">
                 {/* Dropdown Trigger */}
@@ -255,9 +261,7 @@ export default function Navbar() {
                 )}
               </div>
 
-              <Link to={'/speaker'} className={Linkness('speaker')}>
-                <p className={`text-base text-black`}>Speakers </p>
-              </Link>
+
 
               <Link to={'/workshop'} className={Linkness('workshop')}>
                 <p className={`text-base text-black`}>Workshop&Tutorials </p>
