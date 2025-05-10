@@ -55,6 +55,22 @@ const specialsession = () => {
                                 <p>5.	A list of at least 15 potential national/international reviewers, including their names, email addresses, and affiliations.</p>
                             </div>
                         </div>
+                        <div>
+                            <p className='text-xl md:text-2xl pt-8 font-semibold text-blue-600' >Complimentary Conference Registration:</p>
+                            <div className='pt-6 pb-3 flex flex-col gap-3'>
+                                <p className='font-semibold text-lg'> For each successfully organized Special Session, one complimentary registration will be provided.</p>
+                            </div>
+                        </div>
+                        <div>
+                            <p className='text-xl md:text-2xl pt-6 font-semibold text-blue-600' >Contacts for Special Session:</p>
+                            <div className='pt-5 pb-3 flex flex-col gap-3 font-medium'>
+                                <p>Dr. Ravi Bhushan, NIT Jamshedpur (ravibhushan.ee@nitjsr.ac.in)</p>
+                                <p>Dr. Sanjay Kumar, NIT Jamshedpur (sanjay.ee@nitjsr.ac.in)</p>
+                                <p>Dr. Tanmoy Roy Choudhury, NIT Rourkela</p>
+                                (trc.6287@gmail.com)
+                                <p>GIEST-2025 Organizing Team (giestconf2025@gmail.com)</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

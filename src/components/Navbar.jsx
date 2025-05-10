@@ -60,6 +60,7 @@ export default function Navbar() {
   }
 
   const [dropdownOpen, setDropdownOpen] = useState(false);
+  const [dropdownOpen2, setDropdownOpen2] = useState(false);
 
   return (
     <motion.header className='w-full py-1 fixed top-0 z-10 sm:px-10 px-5 flex justify-between items-center'
@@ -104,9 +105,7 @@ export default function Navbar() {
             <Link to={'/'} className={Linkness('home')}>
               <p className={`text-base text-black`}>Home</p>
             </Link>
-            <Link to={'/authors'} className={Linkness('authors')}>
-              <p className={`text-base text-black`}>Authors </p>
-            </Link>
+
             <Link to={'/impdate'} className={Linkness('impdate')}>
               <p className={`text-base text-black`}>Important Dates </p>
             </Link>
@@ -116,14 +115,56 @@ export default function Navbar() {
               <p className={`text-base text-black`}>Committee </p>
             </Link> */}
 
-            <Link to={'/specialSession'} className={Linkness('specialSession')}>
+            {/* <Link to={'/specialSession'} className={Linkness('specialSession')}>
               <p className={`text-base text-black`}>Special Session</p>
-            </Link>
+            </Link> */}
 
             <div className="relative">
               {/* Dropdown Trigger */}
               <button
-                className="flex items-center text-base text-black"
+                className="flex items-center text-base font-semibold text-black"
+                onClick={() => setDropdownOpen2(!dropdownOpen2)}
+              >
+                Speial Session
+                <svg
+                  className="w-4 h-4 ml-2"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M19 9l-7 7-7-7"
+                  />
+                </svg>
+              </button>
+
+              {/* Dropdown Menu */}
+              {dropdownOpen2 && (
+                <div className="absolute mt-2 bg-white text-gray-800 rounded shadow-lg w-40">
+                  <Link
+                    to="/specialSession"
+                    className="block px-4 py-2 hover:bg-gray-100"
+                  >
+                    Call for session
+                  </Link>
+                  <Link
+                    to="/approvedsession"
+                    className="block px-4 py-2 hover:bg-gray-100"
+                  >
+                    Approved session
+                  </Link>
+                </div>
+              )}
+            </div>
+
+            <div className="relative">
+              {/* Dropdown Trigger */}
+              <button
+                className="flex items-center text-base font-semibold text-black"
                 onClick={() => setDropdownOpen(!dropdownOpen)}
               >
                 Committee
@@ -168,6 +209,10 @@ export default function Navbar() {
               )}
             </div>
 
+            <Link to={'/authors'} className={Linkness('authors')}>
+              <p className={`text-base text-black`}>Authors </p>
+            </Link>
+
             <Link to={'/workshop'} className={Linkness('workshop')}>
               <p className={`text-base text-black`}>Workshop&Tutorials </p>
             </Link>
@@ -199,9 +244,7 @@ export default function Navbar() {
               <Link to={'/'} className={Linkness('home')}>
                 <p className={`text-base text-black`}>Home</p>
               </Link>
-              <Link to={'/authors'} className={Linkness('authors')}>
-                <p className={`text-base text-black`}>Authors </p>
-              </Link>
+
               <Link to={'/impdate'} className={Linkness('impdate')}>
                 <p className={`text-base text-black`}>Important Dates </p>
               </Link>
@@ -209,14 +252,56 @@ export default function Navbar() {
               {/* <Link to={'/committee'} className={Linkness('committee')}>
               <p className={`text-base text-black`}>Committee </p>
             </Link> */}
-              <Link to={'/specialSession'} className={Linkness('specialSession')}>
+              {/* <Link to={'/specialSession'} className={Linkness('specialSession')}>
                 <p className={`text-base text-black`}>Special Session </p>
-              </Link>
+              </Link> */}
+
+              <div className="relative z-10">
+                {/* Dropdown Trigger */}
+                <button
+                  className="flex items-center text-base font-semibold text-black"
+                  onClick={() => setDropdownOpen2(!dropdownOpen2)}
+                >
+                  Speial Session
+                  <svg
+                    className="w-4 h-4 ml-2"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M19 9l-7 7-7-7"
+                    />
+                  </svg>
+                </button>
+
+                {/* Dropdown Menu */}
+                {dropdownOpen2 && (
+                  <div className="absolute mt-2 bg-white text-gray-800 rounded shadow-lg w-40">
+                    <Link
+                      to="/specialSession"
+                      className="block px-4 py-2 hover:bg-gray-100"
+                    >
+                      Call for session
+                    </Link>
+                    <Link
+                      to="/approvedsession"
+                      className="block px-4 py-2 hover:bg-gray-100"
+                    >
+                      Approved session
+                    </Link>
+                  </div>
+                )}
+              </div>
 
               <div className="relative">
                 {/* Dropdown Trigger */}
                 <button
-                  className="flex items-center text-base text-black"
+                  className="flex items-center text-base font-semibold text-black"
                   onClick={() => setDropdownOpen(!dropdownOpen)}
                 >
                   Committee
@@ -261,7 +346,9 @@ export default function Navbar() {
                 )}
               </div>
 
-
+              <Link to={'/authors'} className={Linkness('authors')}>
+                <p className={`text-base text-black`}>Authors </p>
+              </Link>
 
               <Link to={'/workshop'} className={Linkness('workshop')}>
                 <p className={`text-base text-black`}>Workshop&Tutorials </p>
