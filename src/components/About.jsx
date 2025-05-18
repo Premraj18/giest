@@ -4,20 +4,20 @@ import React from 'react'
 
 const About = () => {
     return (
-        <div className=' bg-white flex flex-col justify-center items-center py-20'>
+        <div className=' bg-white flex flex-col justify-center items-center pb-20 pt-5'>
             <h3 className='text-4xl font-semibold text-blue-600 mb-10'>About Conference</h3>
             <div className='flex w-full flex-col lg:flex-row justify-center items-center px-3 lg:px-20 gap-8 gap-y-14 lg:gap-y-0'>
                 <div className='lg:w-2/5 lg:text-lg' >
-                    <p className='text-justify'>GIEST-2025 is the “2025 IEEE 2ndInternational Conference on Green Industrial Electronics
+                    <p className='text-justify'>GIEST-2025 is the “2025 IEEE 2nd International Conference on Green Industrial Electronics
                         and Sustainable Technologies” will be
                         organized by the <span className='font-semibold'> Electrical Engineering
-                            Department, NIT Jamshedpur </span> in association with IEEEKolkata Section-Silchar Industrial
+                        Department, NIT Jamshedpur </span> in association with IEEE Kolkata Section-Silchar Industrial
                         Electronics Society Chapter and Student Branch, NIT Manipur.  </p>
 
                     <p className='text-justify'> This is the flagship annual
                         international conference of the IEEE Kolkata Section-Silchar Industrial Electronics Society
                         Chapter and will be conducted in hybrid mode with the technical co-sponsorship of IEEE
-                        Silchar Subsection, <span className='font-semibold'> from 11th to 13thOctober 2025. </span> </p>
+                        Silchar Subsection, <span className='font-semibold'> from 11th to 13 thOctober 2025 in HYBRID MODE </span> </p>
 
                 </div>
                 <div className='lg:w-2/5 lg:text-lg' >

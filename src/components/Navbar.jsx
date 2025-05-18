@@ -61,6 +61,8 @@ export default function Navbar() {
 
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const [dropdownOpen2, setDropdownOpen2] = useState(false);
+  const [dropdownOpen3, setDropdownOpen3] = useState(false);
+  const [dropdownOpen4, setDropdownOpen4] = useState(false);
 
   return (
     <motion.header className='w-full py-1 fixed top-0 z-10 sm:px-10 px-5 flex justify-between items-center'
@@ -106,61 +108,7 @@ export default function Navbar() {
               <p className={`text-base text-black`}>Home</p>
             </Link>
 
-            <Link to={'/impdate'} className={Linkness('impdate')}>
-              <p className={`text-base text-black`}>Important Dates </p>
-            </Link>
-
-
-            {/* <Link to={'/committee'} className={Linkness('committee')}>
-              <p className={`text-base text-black`}>Committee </p>
-            </Link> */}
-
-            {/* <Link to={'/specialSession'} className={Linkness('specialSession')}>
-              <p className={`text-base text-black`}>Special Session</p>
-            </Link> */}
-
-            <div className="relative">
-              {/* Dropdown Trigger */}
-              <button
-                className="flex items-center text-base font-semibold text-black"
-                onClick={() => setDropdownOpen2(!dropdownOpen2)}
-              >
-                Speial Session
-                <svg
-                  className="w-4 h-4 ml-2"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M19 9l-7 7-7-7"
-                  />
-                </svg>
-              </button>
-
-              {/* Dropdown Menu */}
-              {dropdownOpen2 && (
-                <div className="absolute mt-2 bg-white text-gray-800 rounded shadow-lg w-40">
-                  <Link
-                    to="/specialSession"
-                    className="block px-4 py-2 hover:bg-gray-100"
-                  >
-                    Call for session
-                  </Link>
-                  <Link
-                    to="/approvedsession"
-                    className="block px-4 py-2 hover:bg-gray-100"
-                  >
-                    Approved session
-                  </Link>
-                </div>
-              )}
-            </div>
-
+            {/* Committee */}
             <div className="relative">
               {/* Dropdown Trigger */}
               <button
@@ -209,6 +157,170 @@ export default function Navbar() {
               )}
             </div>
 
+
+            <Link to={'/impdate'} className={Linkness('impdate')}>
+              <p className={`text-base text-black`}>Important Dates </p>
+            </Link>
+
+            {/* .Author */}
+            <div className="relative">
+              {/* Dropdown Trigger */}
+              <button
+                className="flex items-center text-base font-semibold text-black"
+                onClick={() => setDropdownOpen3(!dropdownOpen3)}
+              >
+                Authors
+                <svg
+                  className="w-4 h-4 ml-2"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M19 9l-7 7-7-7"
+                  />
+                </svg>
+              </button>
+
+              {/* Dropdown Menu */}
+              {dropdownOpen3 && (
+                <div className="absolute mt-2 bg-white text-gray-800 rounded shadow-lg w-40">
+                  <Link
+                    to="/callforpaper"
+                    className="block px-4 py-2 hover:bg-gray-100"
+                  >
+                    Call for Papers
+                  </Link>
+                  <Link
+                    to="/registrationdetail"
+                    className="block px-4 py-2 hover:bg-gray-100"
+                  >
+                    Registration details
+                  </Link>
+                  <Link
+                    to="/studentravelgrant"
+                    className="block px-4 py-2 hover:bg-gray-100"
+                  >
+                    Student Travel Grant
+                  </Link>
+                  <Link
+                    to="/bestpaperaward"
+                    className="block px-4 py-2 hover:bg-gray-100"
+                  >
+                    Best Paper Awards
+                  </Link>
+                  <Link
+                    to="/camerareadysub"
+                    className="block px-4 py-2 hover:bg-gray-100"
+                  >
+                    Camera ready submission
+                  </Link>
+                  <Link
+                    to="/regform"
+                    className="block px-4 py-2 hover:bg-gray-100"
+                  >
+                    Registration form
+                  </Link>
+                  <Link
+                    to="/presdetail"
+                    className="block px-4 py-2 hover:bg-gray-100"
+                  >
+                    Presentaion Details
+                  </Link>
+                </div>
+              )}
+            </div>
+
+            {/* Special session */}
+            <div className="relative">
+              {/* Dropdown Trigger */}
+              <button
+                className="flex items-center text-base font-semibold text-black"
+                onClick={() => setDropdownOpen2(!dropdownOpen2)}
+              >
+                Special Session
+                <svg
+                  className="w-4 h-4 ml-2"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M19 9l-7 7-7-7"
+                  />
+                </svg>
+              </button>
+
+              {/* Dropdown Menu */}
+              {dropdownOpen2 && (
+                <div className="absolute mt-2 bg-white text-gray-800 rounded shadow-lg w-40">
+                  <Link
+                    to="/specialSession"
+                    className="block px-4 py-2 hover:bg-gray-100"
+                  >
+                    Call for session
+                  </Link>
+                  <Link
+                    to="/approvedsession"
+                    className="block px-4 py-2 hover:bg-gray-100"
+                  >
+                    Approved session
+                  </Link>
+                </div>
+              )}
+            </div>
+
+            {/* Speaker */}
+            <div className="relative">
+              {/* Dropdown Trigger */}
+              <button
+                className="flex items-center text-base font-semibold text-black"
+                onClick={() => setDropdownOpen4(!dropdownOpen4)}
+              >
+                Speaker
+                <svg
+                  className="w-4 h-4 ml-2"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M19 9l-7 7-7-7"
+                  />
+                </svg>
+              </button>
+
+              {/* Dropdown Menu */}
+              {dropdownOpen4 && (
+                <div className="absolute mt-2 bg-white text-gray-800 rounded shadow-lg w-40">
+                  <Link
+                    to="/keyspeak"
+                    className="block px-4 py-2 hover:bg-gray-100"
+                  >
+                    Keynote Speaker
+                  </Link>
+                  <Link
+                    to="/tutspeak"
+                    className="block px-4 py-2 hover:bg-gray-100"
+                  >
+                    Tutorial Speaker
+                  </Link>
+                </div>
+              )}
+            </div>
+
             <Link to={'/authors'} className={Linkness('authors')}>
               <p className={`text-base text-black`}>Authors </p>
             </Link>
@@ -219,19 +331,15 @@ export default function Navbar() {
             <Link to={'/sponsorship'} className={Linkness('sponsorship')}>
               <p className={`text-base text-black`}>Sponsership </p>
             </Link>
-            <Link to={'/accomodation'} className={Linkness('accomodation')}>
+            {/* <Link to={'/accomodation'} className={Linkness('accomodation')}>
               <p className={`text-base text-black`}>Accomodation </p>
-            </Link>
+            </Link> */}
             <Link to={'/placetovisit'} className={Linkness('placetovisit')}>
               <p className={`text-base text-black`}>Place to Visit </p>
             </Link>
           </div>
         </div>
-        {/* <div className='md:flex lg:text-xl text-base hidden items-baseline gap-7 max-sm:justify-end max-sm:flex-1'>
-          <Link to='/contact'>
-            <button className={`px-2 py-1 text-base border-2 rounded-full border-orange-600 hover:bg-orange-700 hover:text-white ${subpage === 'home' && hidden == !true ? 'text-white' : 'text-black'}`} >Contact Us</button>
-          </Link>
-        </div> */}
+
 
         {/* mobile view */}
         <div onClick={toggleCart} className='cursor-pointer md:hidden font-semibold md:absolute md:right-0 md:mx-8 md:mt-0'>
@@ -245,60 +353,8 @@ export default function Navbar() {
                 <p className={`text-base text-black`}>Home</p>
               </Link>
 
-              <Link to={'/impdate'} className={Linkness('impdate')}>
-                <p className={`text-base text-black`}>Important Dates </p>
-              </Link>
-
-              {/* <Link to={'/committee'} className={Linkness('committee')}>
-              <p className={`text-base text-black`}>Committee </p>
-            </Link> */}
-              {/* <Link to={'/specialSession'} className={Linkness('specialSession')}>
-                <p className={`text-base text-black`}>Special Session </p>
-              </Link> */}
-
-              <div className="relative z-10">
-                {/* Dropdown Trigger */}
-                <button
-                  className="flex items-center text-base font-semibold text-black"
-                  onClick={() => setDropdownOpen2(!dropdownOpen2)}
-                >
-                  Speial Session
-                  <svg
-                    className="w-4 h-4 ml-2"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M19 9l-7 7-7-7"
-                    />
-                  </svg>
-                </button>
-
-                {/* Dropdown Menu */}
-                {dropdownOpen2 && (
-                  <div className="absolute mt-2 bg-white text-gray-800 rounded shadow-lg w-40">
-                    <Link
-                      to="/specialSession"
-                      className="block px-4 py-2 hover:bg-gray-100"
-                    >
-                      Call for session
-                    </Link>
-                    <Link
-                      to="/approvedsession"
-                      className="block px-4 py-2 hover:bg-gray-100"
-                    >
-                      Approved session
-                    </Link>
-                  </div>
-                )}
-              </div>
-
-              <div className="relative">
+              {/* committee */}
+              <div className="relative z-40">
                 {/* Dropdown Trigger */}
                 <button
                   className="flex items-center text-base font-semibold text-black"
@@ -346,9 +402,173 @@ export default function Navbar() {
                 )}
               </div>
 
-              <Link to={'/authors'} className={Linkness('authors')}>
-                <p className={`text-base text-black`}>Authors </p>
+              <Link to={'/impdate'} className={Linkness('impdate')}>
+                <p className={`text-base text-black`}>Important Dates </p>
               </Link>
+
+              {/* .Author */}
+              <div className="relative z-30">
+                {/* Dropdown Trigger */}
+                <button
+                  className="flex items-center text-base font-semibold text-black"
+                  onClick={() => setDropdownOpen3(!dropdownOpen3)}
+                >
+                  Authors
+                  <svg
+                    className="w-4 h-4 ml-2"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M19 9l-7 7-7-7"
+                    />
+                  </svg>
+                </button>
+                {/* Dropdown Menu */}
+                {dropdownOpen3 && (
+                  <div className="absolute mt-2 bg-white text-gray-800 rounded shadow-lg w-40">
+                    <Link
+                      to="/callforpaper"
+                      className="block px-4 py-2 hover:bg-gray-100"
+                    >
+                      Call for Papers
+                    </Link>
+                    <Link
+                      to="/registrationdetail"
+                      className="block px-4 py-2 hover:bg-gray-100"
+                    >
+                      Registration details
+                    </Link>
+                    <Link
+                      to="/studentravelgrant"
+                      className="block px-4 py-2 hover:bg-gray-100"
+                    >
+                      Student Travel Grant
+                    </Link>
+                    <Link
+                      to="/bestpaperaward"
+                      className="block px-4 py-2 hover:bg-gray-100"
+                    >
+                      Best Paper Awards
+                    </Link>
+                    <Link
+                      to="/camerareadysub"
+                      className="block px-4 py-2 hover:bg-gray-100"
+                    >
+                      Camera ready submission
+                    </Link>
+                    <Link
+                      to="/regform"
+                      className="block px-4 py-2 hover:bg-gray-100"
+                    >
+                      Registration form
+                    </Link>
+                    <Link
+                      to="/presdetail"
+                      className="block px-4 py-2 hover:bg-gray-100"
+                    >
+                      Presentaion Details
+                    </Link>
+                  </div>
+                )}
+              </div>
+
+              {/* Special Session */}
+              <div className="relative z-20">
+                {/* Dropdown Trigger */}
+                <button
+                  className="flex items-center text-base font-semibold text-black"
+                  onClick={() => setDropdownOpen2(!dropdownOpen2)}
+                >
+                  Speial Session
+                  <svg
+                    className="w-4 h-4 ml-2"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M19 9l-7 7-7-7"
+                    />
+                  </svg>
+                </button>
+
+                {/* Dropdown Menu */}
+                {dropdownOpen2 && (
+                  <div className="absolute mt-2 bg-white text-gray-800 rounded shadow-lg w-40">
+                    <Link
+                      to="/specialSession"
+                      className="block px-4 py-2 hover:bg-gray-100"
+                    >
+                      Call for session
+                    </Link>
+                    <Link
+                      to="/approvedsession"
+                      className="block px-4 py-2 hover:bg-gray-100"
+                    >
+                      Approved session
+                    </Link>
+                  </div>
+                )}
+              </div>
+
+              {/* Speaker */}
+              <div className="relative z-10">
+                {/* Dropdown Trigger */}
+                <button
+                  className="flex items-center text-base font-semibold text-black"
+                  onClick={() => setDropdownOpen4(!dropdownOpen4)}
+                >
+                  Speaker
+                  <svg
+                    className="w-4 h-4 ml-2"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M19 9l-7 7-7-7"
+                    />
+                  </svg>
+                </button>
+
+                {/* Dropdown Menu */}
+                {dropdownOpen4 && (
+                  <div className="absolute mt-2 bg-white text-gray-800 rounded shadow-lg w-40">
+                    <Link
+                      to="/keyspeak"
+                      className="block px-4 py-2 hover:bg-gray-100"
+                    >
+                      Keynote Speaker
+                    </Link>
+                    <Link
+                      to="/tutspeak"
+                      className="block px-4 py-2 hover:bg-gray-100"
+                    >
+                      Tutorial Speaker
+                    </Link>
+                  </div>
+                )}
+              </div>
+
+
+
+              {/* <Link to={'/authors'} className={Linkness('authors')}>
+                <p className={`text-base text-black`}>Authors </p>
+              </Link> */}
 
               <Link to={'/workshop'} className={Linkness('workshop')}>
                 <p className={`text-base text-black`}>Workshop&Tutorials </p>
@@ -356,9 +576,9 @@ export default function Navbar() {
               <Link to={'/sponsorship'} className={Linkness('sponsorship')}>
                 <p className={`text-base text-black`}>Sponsership </p>
               </Link>
-              <Link to={'/accomodation'} className={Linkness('accomodation')}>
+              {/* <Link to={'/accomodation'} className={Linkness('accomodation')}>
                 <p className={`text-base text-black`}>Accomodation </p>
-              </Link>
+              </Link> */}
               <Link to={'/placetovisit'} className={Linkness('placetovisit')}>
                 <p className={`text-base text-black`}>Place to Visit </p>
               </Link>
