@@ -37,7 +37,10 @@ const ImpDates = () => {
                             </div>
 
                             <p className="text-lg text-justify ">Paper Submission Closes </p>
-                            <p className="text-lg text-justify ">10/06/2025</p>
+                            <div className='flex gap-x-5'>
+                                <p className="text-lg text-justify line-through">18/06/2025 </p>
+                                <p className="text-lg text-justify ">25/06/2025 </p>
+                            </div>
                         </div>
 
                         <div className="flex flex-col justify-center gap-5 items-center p-4 px-8 border border-gray-200 rounded-2xl shadow-md w-[350px] min-h-[200px] hover:shadow-lg  transform transition-all hover:scale-105  bg-white duration-300"

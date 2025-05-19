@@ -1,8 +1,8 @@
 export default function RunningTab(props) {
   return (
-    <div className="w-full overflow-hidden bg-gray-100 border-y py-4">
-      <div className="whitespace-nowrap animate-marquee text-gray-900 font-medium py-2 text-xl">
-        {props.text} <span className='font-bold'> HYBRID MODE</span>
+    <div className="w-full overflow-hidden border-y py-4">
+      <div className="whitespace-nowrap animate-marquee text-blue-600 font-medium py-2 text-xl">
+        {props.text} 
       </div>
       <style>{`
         @keyframes marquee {
