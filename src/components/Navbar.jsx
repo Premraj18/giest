@@ -266,13 +266,13 @@ export default function Navbar() {
                     to="/specialSession"
                     className="block px-4 py-2 hover:bg-gray-100"
                   >
-                    Call for session
+                    Call for Special Session
                   </Link>
                   <Link
                     to="/approvedsession"
                     className="block px-4 py-2 hover:bg-gray-100"
                   >
-                    Approved session
+                    Approved Special Session
                   </Link>
                 </div>
               )}
@@ -509,13 +509,13 @@ export default function Navbar() {
                       to="/specialSession"
                       className="block px-4 py-2 hover:bg-gray-100"
                     >
-                      Call for session
+                      Call for Special Session
                     </Link>
                     <Link
                       to="/approvedsession"
                       className="block px-4 py-2 hover:bg-gray-100"
                     >
-                      Approved session
+                      Approved Special Session
                     </Link>
                   </div>
                 )}

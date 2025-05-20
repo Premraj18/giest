@@ -33,7 +33,7 @@ const specialsession = () => {
                                 Last date Submission of proposals: <span className='font-semibold text-blue-500 line-through'> 18th May, 2025</span>  <span className='font-semibold text-blue-500'>  25th May, 2025</span> 
                             </p>
                             <p className='pb-3 md:text-lg'>
-                                Notification of decision: <span className='font-semibold text-blue-500'> 21st May, 2025 or before</span>
+                                Notification of decision: <span className='font-semibold text-blue-500'> Within one week of submission</span>
                             </p>
                         </div>
                         <div>
@@ -56,12 +56,12 @@ const specialsession = () => {
                             </div>
                         </div>
                         <div>
-                            <p><span className='font-semibold'>Successful SS:</span> A special session will be considered successful if it results in a minimum of six ac-cepted and registered papers, with authors from at 
+                            <p><span className='font-semibold text-blue-600'>Successful SS:</span> A special session will be considered successful if it results in a minimum of six accepted and registered papers, with authors from at 
                                 least three independent institutions. One complimentary registration will be provided to the chair or co-chair of each successful Special Session.</p>
-                            <p className='py-4'><span className='font-semibold'>Session Chairs:</span> Once a special session is finally accepted by the conference organizers, one of the session organizers will serve as the Session Chair,
+                            <p className='py-4'><span className='font-semibold text-blue-600'>Session Chairs:</span> Once a special session is finally accepted by the conference organizers, one of the session organizers will serve as the Session Chair,
                                  in collaboration with other chairs in the confer-ence. In some extenuated circumstance, if the session organizers are unable to attend, the Technical 
                                  Program Chairs and Conference General Chairs reserve the right to appoint alternate Session Chairs.</p>
-                            <p className='font-medium'><span className='font-bold'>Note:</span> All important dates, rules, and regulations must be followed as per the GIEST-2025.</p>
+                            <p className='font-medium text-red-600'><span className='font-bold'>Note:</span> All important dates, rules, and regulations must be followed as per the GIEST-2025.</p>
                         </div>
                         <div>
                             <p className='text-xl md:text-2xl pt-8 font-semibold text-blue-600' >Complimentary Conference Registration:</p>
