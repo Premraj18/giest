@@ -6,8 +6,8 @@ const About = () => {
     return (
         <div className=' bg-white flex flex-col justify-center items-center pb-20 pt-5'>
             <h3 className='text-4xl font-semibold text-blue-600 mb-10'>About Conference</h3>
-            <div className='flex w-full flex-col lg:flex-row justify-center items-center px-3 lg:px-20 gap-8 gap-y-14 lg:gap-y-0'>
-                <div className='lg:w-2/5 lg:text-lg' >
+            <div className='flex md:text-xl text-lg w-full flex-col lg:flex-row justify-center items-center px-3 lg:px-20 gap-8 gap-y-14 lg:gap-y-0'>
+                <div className='lg:w-2/5' >
                     <p className='text-justify'>GIEST-2025 is the “2025 IEEE 2nd International Conference on Green Industrial Electronics
                         and Sustainable Technologies” will be
                         organized by the <span className='font-semibold'> Electrical Engineering
@@ -20,7 +20,7 @@ const About = () => {
                         Silchar Subsection, <span className='font-semibold'> from 11th to 13 thOctober 2025 in HYBRID MODE </span> </p>
 
                 </div>
-                <div className='lg:w-2/5 lg:text-lg' >
+                <div className='lg:w-2/5' >
                     <p className='text-justify'>The main objective of this
                         international conference is to foster collaboration among researchers from prestigious
                         institutes and industries worldwide. The conference aims to provide a platform for
@@ -34,7 +34,7 @@ const About = () => {
             </div>
             <div className='flex flex-col md:justify-center md:items-center px-3 md:px-24 mt-10'>
                 <h3 className='text-4xl font-semibold text-blue-600 mb-10'>About Institute</h3>
-                <p className='text-justify'>The National Institute of Technology Jamshedpur, established on August 15, 1960, was
+                <p className='text-justify text-lg'>The National Institute of Technology Jamshedpur, established on August 15, 1960, was
                     formerly known as the Regional Institute of Technology (RIT) Jamshedpur.
                     It attained the status of an Institution of National Importance through the National
                     Institutes of Technology Act, 2007 (Act 29 of 2007). The institute aims to cultivate
@@ -49,7 +49,7 @@ const About = () => {
 
             <div className='flex flex-col md:justify-center md:items-center px-3 md:px-24 mt-10'>
                 <h3 className='text-4xl font-semibold text-blue-600 mb-10'>About Department</h3>
-                <p className='text-justify'>The Department of Electrical Engineering was started in 1960. The department has been consistently producing quality
+                <p className='text-justify text-lg'>The Department of Electrical Engineering was started in 1960. The department has been consistently producing quality
                     engineers since its inception and is also involved in research and development activities.
                     The alumni of the department are well placed in both public and private sectors.
                     In addition to the UG Programme the department runs PG Programme in Power Systems and Power

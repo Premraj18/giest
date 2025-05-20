@@ -13,8 +13,8 @@ const Home = () => {
   return (
     <Layout>
       <HeroSection/>
-      <RunningTab text="“2025 IEEE 2nd International Conference on Green Industrial Electronics and Sustainable Technologies” will be organized by the Electrical Engineering Department, NIT Jamshedpur from 11th to 13th October 2025 in HYBRID MODE"/>
-      <RunningTab2 text="The submission date has been extended to 25th May 2025."/>
+      <RunningTab text="“2025 IEEE 2nd International Conference on Green Industrial Electronics and Sustainable Technologies” will be organized by the Electrical Engineering Department, NIT Jamshedpur from 11th to 13th October 2025 in"/>
+      <RunningTab2 text="The Special Session proposal deadline is extend till 25th May 2025."/>
       <About/>
       <Countdown/>
       <Regfee/>
