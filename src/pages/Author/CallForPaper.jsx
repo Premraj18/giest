@@ -31,7 +31,7 @@ const Callforpaper = () => {
                     </div>
 
                     <div className='flex flex-col gap-3 font-medium py-8'>
-                        <h2 className='md:text-3xl text-2xl font-semibold pb-3'>Special Session list:</h2>
+                        <h2 className='md:text-3xl text-2xl font-semibold pb-3'>Special Session Track:</h2>
                         {
                             Data.map((e, i) => (
                                 <div key={e.id} className='flex items-center justify-between md:pr-20 border-b'>
