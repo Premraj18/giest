@@ -1,0 +1,26 @@
+[
+    {
+        "id": "1",
+        "ss" : "SS1: Smart Grid-Enabled Sustainable Infrastructure for EV Charging and Transport Corridors.",
+        "organizer" : "(Organizers: Dr. Satyendra Pratap Singh; Dr. Shailendra Singh; Dr. Devesh Shukla)",
+        "flyer": "https://drive.google.com/file/d/1_n5Kc4p06T_3H59nAOQ44Yl3iitpotQz/"
+    },
+    {
+        "id": "2",
+        "ss" : "SS2: Advanced Data-Driven Solutions for Transmission Grid Optimization and Management.",
+        "organizer" : "(Organizers: Dr. Saurav Raj; Dr. Swetha Shekarappa G; Dr. Rammohan Mallipeddi)",
+        "flyer": ""
+    },
+    {
+        "id": "3",
+        "ss" : "SS3: Cyber-physical systems and smart urban infrastructures for sustainable future cities.",
+        "organizer" : "(Organizers: Dr. Sachidananda Sen; Dr. Arvind Kumar Prajapati; Dr. Krishna Murari)",
+        "flyer": ""
+    },
+    {
+        "id": "4",
+        "ss" : "SS4: Modern Approaches to Solar Energy Harvesting: From MPPT Algorithms to Smart Grid Deployment.",
+        "organizer" : "(Organizers: Dr. Jayanta Kumar Sahu; Saroj Kumar Mishra)",
+        "flyer": ""
+    }
+]
