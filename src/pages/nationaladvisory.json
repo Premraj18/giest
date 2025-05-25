@@ -11,7 +11,7 @@
   {
     "id": "2",
     "name": "Prof. N. P. Padhy",
-    "designation": "Professor, Director",
+    "designation": "Director",
     "address": "MNIT Jaipur",
     "email": "director@mnit.ac.in",
     "mobno": "0141-2529087",
@@ -38,7 +38,7 @@
   {
     "id": "5",
     "name": "Mr. Arun Mishra",
-    "designation": "Chief Executive Officer",
+    "designation": "Director",
     "address": "Adhunik Power and Natural Resources Ltd",
     "email": "",
     "mobno": "",
@@ -83,7 +83,7 @@
   {
     "id": "10",
     "name": "Prof. Chandan Kr. Chanda",
-    "designation": "Professor",
+    "designation": "Director",
     "address": "IIEST, W.B.",
     "email": "ckc@ee.iiests.ac.in",
     "mobno": "+91 - 33 - 26684561/62/63",
@@ -218,7 +218,7 @@
   {
     "id": "25",
     "name": "Prof. R.D. Patidar",
-    "designation": "Professor",
+    "designation": "Director",
     "address": "OPJU, Raigarh, India",
     "email": "rd.patidar@opju.ac.in",
     "mobno": "",
@@ -290,7 +290,7 @@
   {
     "id": "33",
     "name": "Prof. Suparna Kar Choudhury",
-    "designation": "Professor",
+    "designation": "Director",
     "address": "Jadavpur Univ.",
     "email": "suparna1964@yahoo.com",
     "mobno": "9432231638",
@@ -326,7 +326,7 @@
   {
     "id": "37",
     "name": "Prof. Amit Patra",
-    "designation": "Director & Professor",
+    "designation": "Director",
     "address": "EED, IIT BHU, Varanasi, India",
     "email": "director@itbhu.ac.in",
     "mobno": "",
