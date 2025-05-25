@@ -17,7 +17,7 @@ const Nationaladvisorycommittee = () => {
                             <motion.div key={e.id} className={`lg:w-[18vw] sm:w-[50vw] w-80 md:h-[45vh] h-[60vh] bg-white rounded-2xl shadow-lg ${e.designation == 'Director' ? 'hidden' : 'flex'}`}
                                 whileHover={{ scale: 1.1, transition: { duration: 0.4 } }}
                             >
-                                <div className='w-full h-full flex flex-col items-center justify-center px-2 gap-5 lg:gap-10'>
+                                <div className='w-full h-full flex flex-col items-center justify-center px-2 gap-10 lg:gap-10'>
                                     <div className=''>
                                         <img src={e.photo} alt="" className='w-[115px] h-28 md:w-28 md:h-28  rounded-[100%] object-cover shadow-2xl' />
                                     </div>

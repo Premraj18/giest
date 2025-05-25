@@ -6,7 +6,7 @@
     "address": "VNIT Nagpur",
     "email": "pradyumn.c@eee.vnit.ac.in",
     "mobno": "+91 9826585016",
-    "photo": "../../public/national-advisory/img1.png"
+    "photo": "/national-advisory/img1.png"
   },
   {
     "id": "2",
@@ -15,7 +15,7 @@
     "address": "MNIT Jaipur",
     "email": "director@mnit.ac.in",
     "mobno": "0141-2529087",
-    "photo": "../../public/national-advisory/img2.png"
+    "photo": "/national-advisory/img2.png"
   },
   {
     "id": "3",
@@ -24,7 +24,7 @@
     "address": "IIT Patna",
     "email": "rkb@iitp.ac.in",
     "mobno": "+91-612-302 8050",
-    "photo": "../../public/national-advisory/img3.png"
+    "photo": "/national-advisory/img3.png"
   },
   {
     "id": "4",
@@ -33,7 +33,7 @@
     "address": "VNIT Nagpur",
     "email": "riteshkeshri@eee.vnit.ac.in",
     "mobno": "8521442797",
-    "photo": "../../public/national-advisory/img4.png"
+    "photo": "/national-advisory/img4.png"
   },
   {
     "id": "5",
@@ -42,7 +42,7 @@
     "address": "Adhunik Power and Natural Resources Ltd",
     "email": "",
     "mobno": "",
-    "photo": "../../public/national-advisory/img5.jpg"
+    "photo": "/national-advisory/img5.jpg"
   },
   {
     "id": "6",
@@ -51,7 +51,7 @@
     "address": "IIEST Shibpur, India",
     "email": "ps@ee.iiests.ac.in",
     "mobno": "033-26684561",
-    "photo": "../../public/national-advisory/img6.png"
+    "photo": "/national-advisory/img6.png"
   },
   {
     "id": "7",
@@ -60,7 +60,7 @@
     "address": "NIT Nagaland",
     "email": "director@nitnagaland.ac.in",
     "mobno": "+91 3862 241801",
-    "photo": "../../public/national-advisory/img7.png"
+    "photo": "/national-advisory/img7.png"
   },
   {
     "id": "8",
@@ -69,7 +69,7 @@
     "address": "NIT Rourkela",
     "email": "akpanda@nitrkl.ac.in",
     "mobno": "0661 - 246 2407",
-    "photo": "../../public/national-advisory/img8.png"
+    "photo": "/national-advisory/img8.png"
   },
   {
     "id": "9",
@@ -78,7 +78,7 @@
     "address": "MNNIT Praygraj",
     "email": "asheesh@mnnit.ac.in",
     "mobno": "91-9455133600",
-    "photo": "../../public/national-advisory/img9.png"
+    "photo": "/national-advisory/img9.png"
   },
   {
     "id": "10",
@@ -87,7 +87,7 @@
     "address": "IIEST, W.B.",
     "email": "ckc@ee.iiests.ac.in",
     "mobno": "+91 - 33 - 26684561/62/63",
-    "photo": "../../public/national-advisory/img10.png"
+    "photo": "/national-advisory/img10.png"
   },
   {
     "id": "11",
@@ -96,7 +96,7 @@
     "address": "Jadavpur Univ.",
     "email": "debangshu.dey@jadavpuruniversity.in",
     "mobno": "",
-    "photo": "../../public/national-advisory/img11.png"
+    "photo": "/national-advisory/img11.png"
   },
   {
     "id": "12",
@@ -105,7 +105,7 @@
     "address": "IIT Kharagpur",
     "email": "ddas@ee.iitkgp.ac.in",
     "mobno": "",
-    "photo": "../../public/national-advisory/img12.png"
+    "photo": "/national-advisory/img12.png"
   },
   {
     "id": "13",
@@ -114,7 +114,7 @@
     "address": "Jadavpur Univ.",
     "email": "",
     "mobno": "",
-    "photo": "../../public/national-advisory/img13.png"
+    "photo": "/national-advisory/img13.png"
   },
   {
     "id": "14",
@@ -123,7 +123,7 @@
     "address": "IIT Guwahati",
     "email": "dj@iitg.ac.in",
     "mobno": "+91 361 258 2005",
-    "photo": "../../public/national-advisory/img14.png"
+    "photo": "/national-advisory/img14.png"
   },
   {
     "id": "15",
@@ -132,7 +132,7 @@
     "address": "",
     "email": "",
     "mobno": "",
-    "photo": "../../public/national-advisory/img15.png"
+    "photo": "/national-advisory/img15.png"
   },
   {
     "id": "16",
@@ -141,7 +141,7 @@
     "address": "NIT Hamirpur",
     "email": "director@nith.ac.in",
     "mobno": "",
-    "photo": "../../public/national-advisory/img16.png"
+    "photo": "/national-advisory/img16.png"
   },
   {
     "id": "17",
@@ -150,7 +150,7 @@
     "address": "NIT Manipur",
     "email": "director@nitmanipur.ac.in",
     "mobno": "9830342891",
-    "photo": "../../public/national-advisory/img17.png"
+    "photo": "/national-advisory/img17.png"
   },
   {
     "id": "18",
@@ -159,7 +159,7 @@
     "address": "NIT Sikkim",
     "email": "director@nitsikkim.ac.in",
     "mobno": "",
-    "photo": "../../public/national-advisory/img18.png"
+    "photo": "/national-advisory/img18.png"
   },
   {
     "id": "19",
@@ -168,7 +168,7 @@
     "address": "NIT Arunachal Pradesh",
     "email": "director@nitap.ac.in",
     "mobno": "0360-2284828",
-    "photo": "../../public/national-advisory/img19.png"
+    "photo": "/national-advisory/img19.png"
   },
   {
     "id": "20",
@@ -177,7 +177,7 @@
     "address": "NIT Silchar",
     "email": "nidulsinha@ee.nits.ac.in",
     "mobno": "",
-    "photo": "../../public/national-advisory/img20.png"
+    "photo": "/national-advisory/img20.png"
   },
   {
     "id": "21",
@@ -186,7 +186,7 @@
     "address": "NIT Meghalaya",
     "email": "director@nitm.ac.in",
     "mobno": "9435734561",
-    "photo": "../../public/national-advisory/img21.png"
+    "photo": "/national-advisory/img21.png"
   },
   {
     "id": "22",
@@ -195,7 +195,7 @@
     "address": "IIT (ISM) Dhanbad",
     "email": "pradip@iitism.ac.in",
     "mobno": "+91-326-223-5478",
-    "photo": "../../public/national-advisory/img22.png"
+    "photo": "/national-advisory/img22.png"
   },
   {
     "id": "23",
@@ -204,7 +204,7 @@
     "address": "NIT Patna",
     "email": "director@nitp.ac.in",
     "mobno": "",
-    "photo": "../../public/national-advisory/img23.png"
+    "photo": "/national-advisory/img23.png"
   },
   {
     "id": "24",
@@ -213,7 +213,7 @@
     "address": "IIT Patna",
     "email": "pkumar@iitp.ac.in",
     "mobno": "+91-6115-233 048",
-    "photo": "../../public/national-advisory/img24.png"
+    "photo": "/national-advisory/img24.png"
   },
   {
     "id": "25",
@@ -222,7 +222,7 @@
     "address": "OPJU, Raigarh, India",
     "email": "rd.patidar@opju.ac.in",
     "mobno": "",
-    "photo": "../../public/national-advisory/img25.png"
+    "photo": "/national-advisory/img25.png"
   },
   {
     "id": "26",
@@ -231,7 +231,7 @@
     "address": "IIT BHU",
     "email": "rksingh.eee@iitbhu.ac.in",
     "mobno": "9451890026",
-    "photo": "../../public/national-advisory/img26.png"
+    "photo": "/national-advisory/img26.png"
   },
   {
     "id": "27",
@@ -240,7 +240,7 @@
     "address": "MNNIT Praygraj",
     "email": "rajeshgupta@mnnit.ac.in",
     "mobno": "+91-532-2271416",
-    "photo": "../../public/national-advisory/img27.png"
+    "photo": "/national-advisory/img27.png"
   },
   {
     "id": "28",
@@ -249,7 +249,7 @@
     "address": "NIT Jaipur",
     "email": "rkumar.ee@mnit.ac.in",
     "mobno": "01412713372",
-    "photo": "../../public/national-advisory/img28.png"
+    "photo": "/national-advisory/img28.png"
   },
   {
     "id": "29",
@@ -258,7 +258,7 @@
     "address": "IIT BHU",
     "email": "rmahanty.eee@iitbhu.ac.in",
     "mobno": "91-9450540755",
-    "photo": "../../public/national-advisory/img29.png"
+    "photo": "/national-advisory/img29.png"
   },
   {
     "id": "30",
@@ -267,7 +267,7 @@
     "address": "MANIT Bhopal",
     "email": "sschauhan@manit.ac.in",
     "mobno": "9465237795",
-    "photo": "../../public/national-advisory/img30.png"
+    "photo": "/national-advisory/img30.png"
   },
   {
     "id": "31",
@@ -276,7 +276,7 @@
     "address": "Jadavpur Univ.",
     "email": "s_chakravorti@ieee.org",
     "mobno": "+91 33 2414 6948",
-    "photo": "../../public/national-advisory/img31.png"
+    "photo": "/national-advisory/img31.png"
   },
   {
     "id": "32",
@@ -285,7 +285,7 @@
     "address": "IIT Guwahati",
     "email": "smajhi@iitg.ac.in",
     "mobno": "++91-361-2582508",
-    "photo": "../../public/national-advisory/img32.png"
+    "photo": "/national-advisory/img32.png"
   },
   {
     "id": "33",
@@ -294,7 +294,7 @@
     "address": "Jadavpur Univ.",
     "email": "suparna1964@yahoo.com",
     "mobno": "9432231638",
-    "photo": "../../public/national-advisory/img33.jpg"
+    "photo": "/national-advisory/img33.jpg"
   },
   {
     "id": "34",
@@ -303,7 +303,7 @@
     "address": "NIT Patna",
     "email": "director@iitp.ac.in",
     "mobno": "+91-61115-233 001",
-    "photo": "../../public/national-advisory/img34.png"
+    "photo": "/national-advisory/img34.png"
   },
   {
     "id": "35",
@@ -312,7 +312,7 @@
     "address": "IIT (ISM) Dhanbad",
     "email": "director@iitism.ac.in",
     "mobno": "",
-    "photo": "../../public/national-advisory/img35.png"
+    "photo": "/national-advisory/img35.png"
   },
   {
     "id": "36",
@@ -321,7 +321,7 @@
     "address": "EED, IIT (ISM) Dhanbad, India",
     "email": "kalyanchatterjee@iitism.ac.in",
     "mobno": "",
-    "photo": "../../public/national-advisory/img36.png"
+    "photo": "/national-advisory/img36.png"
   },
   {
     "id": "37",
@@ -330,7 +330,7 @@
     "address": "EED, IIT BHU, Varanasi, India",
     "email": "director@itbhu.ac.in",
     "mobno": "",
-    "photo": "../../public/national-advisory/img37.png"
+    "photo": "/national-advisory/img37.png"
   },
   {
     "id": "38",
@@ -339,7 +339,7 @@
     "address": "EED, IIT BHU, Varanasi, India",
     "email": "rkpandey.eee@iitbhu.ac.in",
     "mobno": "9839218001",
-    "photo": "../../public/national-advisory/img38.png"
+    "photo": "/national-advisory/img38.png"
   },
   {
     "id": "39",
@@ -348,7 +348,7 @@
     "address": "EED, NIT Srinagar, India",
     "email": "mdmufti@nitsri.ac.in",
     "mobno": "",
-    "photo": "../../public/national-advisory/img39.jpg"
+    "photo": "/national-advisory/img39.jpg"
   },
   {
     "id": "40",
@@ -357,7 +357,7 @@
     "address": "EED, NIT Srinagar, India",
     "email": "bhatdee@nitsri.ac.in",
     "mobno": "",
-    "photo": "../../public/national-advisory/img40.jpg"
+    "photo": "/national-advisory/img40.jpg"
   },
   {
     "id": "41",
@@ -366,6 +366,6 @@
     "address": "EED, NIT Srinagar, India",
     "email": "abid@nitsri.ac.in",
     "mobno": "",
-    "photo": "../../public/national-advisory/img41.jpg"
+    "photo": "/national-advisory/img41.jpg"
   }
 ]
