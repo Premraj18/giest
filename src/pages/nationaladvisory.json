@@ -1,0 +1,371 @@
+[
+  {
+    "id": "1",
+    "name": "Dr. Pradyumn Chaturvedi",
+    "designation": "Assoc. Professor",
+    "address": "VNIT Nagpur",
+    "email": "pradyumn.c@eee.vnit.ac.in",
+    "mobno": "+91 9826585016",
+    "photo": "../../public/national-advisory/img1.png"
+  },
+  {
+    "id": "2",
+    "name": "Prof. N. P. Padhy",
+    "designation": "Professor, Director",
+    "address": "MNIT Jaipur",
+    "email": "director@mnit.ac.in",
+    "mobno": "0141-2529087",
+    "photo": "../../public/national-advisory/img2.png"
+  },
+  {
+    "id": "3",
+    "name": "Dr. Ranjan Kr. Behera",
+    "designation": "Assoc. Professor.",
+    "address": "IIT Patna",
+    "email": "rkb@iitp.ac.in",
+    "mobno": "+91-612-302 8050",
+    "photo": "../../public/national-advisory/img3.png"
+  },
+  {
+    "id": "4",
+    "name": "Dr. Ritesh Keshari",
+    "designation": "Assoc. Professor.",
+    "address": "VNIT Nagpur",
+    "email": "riteshkeshri@eee.vnit.ac.in",
+    "mobno": "8521442797",
+    "photo": "../../public/national-advisory/img4.png"
+  },
+  {
+    "id": "5",
+    "name": "Mr. Arun Mishra",
+    "designation": "Chief Executive Officer",
+    "address": "Adhunik Power and Natural Resources Ltd",
+    "email": "",
+    "mobno": "",
+    "photo": "../../public/national-advisory/img5.jpg"
+  },
+  {
+    "id": "6",
+    "name": "Prof Prasid Syam",
+    "designation": "Professor",
+    "address": "IIEST Shibpur, India",
+    "email": "ps@ee.iiests.ac.in",
+    "mobno": "033-26684561",
+    "photo": "../../public/national-advisory/img6.png"
+  },
+  {
+    "id": "7",
+    "name": "Prof. A. Elayaperumal",
+    "designation": "Director",
+    "address": "NIT Nagaland",
+    "email": "director@nitnagaland.ac.in",
+    "mobno": "+91 3862 241801",
+    "photo": "../../public/national-advisory/img7.png"
+  },
+  {
+    "id": "8",
+    "name": "Prof. Anup Kr. Panda",
+    "designation": "Professor",
+    "address": "NIT Rourkela",
+    "email": "akpanda@nitrkl.ac.in",
+    "mobno": "0661 - 246 2407",
+    "photo": "../../public/national-advisory/img8.png"
+  },
+  {
+    "id": "9",
+    "name": "Prof. Asheesh K. Singh",
+    "designation": "Professor",
+    "address": "MNNIT Praygraj",
+    "email": "asheesh@mnnit.ac.in",
+    "mobno": "91-9455133600",
+    "photo": "../../public/national-advisory/img9.png"
+  },
+  {
+    "id": "10",
+    "name": "Prof. Chandan Kr. Chanda",
+    "designation": "Professor",
+    "address": "IIEST, W.B.",
+    "email": "ckc@ee.iiests.ac.in",
+    "mobno": "+91 - 33 - 26684561/62/63",
+    "photo": "../../public/national-advisory/img10.png"
+  },
+  {
+    "id": "11",
+    "name": "Prof. Debangshu Dey",
+    "designation": "Professor",
+    "address": "Jadavpur Univ.",
+    "email": "debangshu.dey@jadavpuruniversity.in",
+    "mobno": "",
+    "photo": "../../public/national-advisory/img11.png"
+  },
+  {
+    "id": "12",
+    "name": "Prof. Debapriya Das",
+    "designation": "Professor",
+    "address": "IIT Kharagpur",
+    "email": "ddas@ee.iitkgp.ac.in",
+    "mobno": "",
+    "photo": "../../public/national-advisory/img12.png"
+  },
+  {
+    "id": "13",
+    "name": "Prof. Debashish Chatterjee",
+    "designation": "Professor",
+    "address": "Jadavpur Univ.",
+    "email": "",
+    "mobno": "",
+    "photo": "../../public/national-advisory/img13.png"
+  },
+  {
+    "id": "14",
+    "name": "Prof. Devendra Jalihal",
+    "designation": "Director",
+    "address": "IIT Guwahati",
+    "email": "dj@iitg.ac.in",
+    "mobno": "+91 361 258 2005",
+    "photo": "../../public/national-advisory/img14.png"
+  },
+  {
+    "id": "15",
+    "name": "Prof. Deepak Mathur",
+    "designation": "IEEE Vice President Elect. MGA",
+    "address": "",
+    "email": "",
+    "mobno": "",
+    "photo": "../../public/national-advisory/img15.png"
+  },
+  {
+    "id": "16",
+    "name": "Prof. H. M. Suryawanshi",
+    "designation": "Director",
+    "address": "NIT Hamirpur",
+    "email": "director@nith.ac.in",
+    "mobno": "",
+    "photo": "../../public/national-advisory/img16.png"
+  },
+  {
+    "id": "17",
+    "name": "Prof. KVLN Somayajulu",
+    "designation": "Director",
+    "address": "NIT Manipur",
+    "email": "director@nitmanipur.ac.in",
+    "mobno": "9830342891",
+    "photo": "../../public/national-advisory/img17.png"
+  },
+  {
+    "id": "18",
+    "name": "Prof. Mahesh Chandra Govil",
+    "designation": "Director",
+    "address": "NIT Sikkim",
+    "email": "director@nitsikkim.ac.in",
+    "mobno": "",
+    "photo": "../../public/national-advisory/img18.png"
+  },
+  {
+    "id": "19",
+    "name": "Prof. Mohan V Aware",
+    "designation": "Director",
+    "address": "NIT Arunachal Pradesh",
+    "email": "director@nitap.ac.in",
+    "mobno": "0360-2284828",
+    "photo": "../../public/national-advisory/img19.png"
+  },
+  {
+    "id": "20",
+    "name": "Prof. Nidul Sinha",
+    "designation": "Professor",
+    "address": "NIT Silchar",
+    "email": "nidulsinha@ee.nits.ac.in",
+    "mobno": "",
+    "photo": "../../public/national-advisory/img20.png"
+  },
+  {
+    "id": "21",
+    "name": "Prof. Pinakeswar Mahanta",
+    "designation": "Director",
+    "address": "NIT Meghalaya",
+    "email": "director@nitm.ac.in",
+    "mobno": "9435734561",
+    "photo": "../../public/national-advisory/img21.png"
+  },
+  {
+    "id": "22",
+    "name": "Prof. Pradeep Kr. Sadhu",
+    "designation": "Professor",
+    "address": "IIT (ISM) Dhanbad",
+    "email": "pradip@iitism.ac.in",
+    "mobno": "+91-326-223-5478",
+    "photo": "../../public/national-advisory/img22.png"
+  },
+  {
+    "id": "23",
+    "name": "Prof. Pradip. K Jain",
+    "designation": "Director",
+    "address": "NIT Patna",
+    "email": "director@nitp.ac.in",
+    "mobno": "",
+    "photo": "../../public/national-advisory/img23.png"
+  },
+  {
+    "id": "24",
+    "name": "Prof. Preetam Kumar",
+    "designation": "Professor",
+    "address": "IIT Patna",
+    "email": "pkumar@iitp.ac.in",
+    "mobno": "+91-6115-233 048",
+    "photo": "../../public/national-advisory/img24.png"
+  },
+  {
+    "id": "25",
+    "name": "Prof. R.D. Patidar",
+    "designation": "Professor",
+    "address": "OPJU, Raigarh, India",
+    "email": "rd.patidar@opju.ac.in",
+    "mobno": "",
+    "photo": "../../public/national-advisory/img25.png"
+  },
+  {
+    "id": "26",
+    "name": "Prof. Rajeev Kumar Singh",
+    "designation": "Professor",
+    "address": "IIT BHU",
+    "email": "rksingh.eee@iitbhu.ac.in",
+    "mobno": "9451890026",
+    "photo": "../../public/national-advisory/img26.png"
+  },
+  {
+    "id": "27",
+    "name": "Prof. Rajesh Kr. Gupta",
+    "designation": "Professor",
+    "address": "MNNIT Praygraj",
+    "email": "rajeshgupta@mnnit.ac.in",
+    "mobno": "+91-532-2271416",
+    "photo": "../../public/national-advisory/img27.png"
+  },
+  {
+    "id": "28",
+    "name": "Prof. Rajesh Kumar",
+    "designation": "Professor",
+    "address": "NIT Jaipur",
+    "email": "rkumar.ee@mnit.ac.in",
+    "mobno": "01412713372",
+    "photo": "../../public/national-advisory/img28.png"
+  },
+  {
+    "id": "29",
+    "name": "Prof. Ranjit Mahanty",
+    "designation": "Professor",
+    "address": "IIT BHU",
+    "email": "rmahanty.eee@iitbhu.ac.in",
+    "mobno": "91-9450540755",
+    "photo": "../../public/national-advisory/img29.png"
+  },
+  {
+    "id": "30",
+    "name": "Prof. Sanjeev S. Chauhan",
+    "designation": "Professor",
+    "address": "MANIT Bhopal",
+    "email": "sschauhan@manit.ac.in",
+    "mobno": "9465237795",
+    "photo": "../../public/national-advisory/img30.png"
+  },
+  {
+    "id": "31",
+    "name": "Prof. Sivaji Chakravorti",
+    "designation": "Professor",
+    "address": "Jadavpur Univ.",
+    "email": "s_chakravorti@ieee.org",
+    "mobno": "+91 33 2414 6948",
+    "photo": "../../public/national-advisory/img31.png"
+  },
+  {
+    "id": "32",
+    "name": "Prof. Somnath Majhi",
+    "designation": "Professor",
+    "address": "IIT Guwahati",
+    "email": "smajhi@iitg.ac.in",
+    "mobno": "++91-361-2582508",
+    "photo": "../../public/national-advisory/img32.png"
+  },
+  {
+    "id": "33",
+    "name": "Prof. Suparna Kar Choudhury",
+    "designation": "Professor",
+    "address": "Jadavpur Univ.",
+    "email": "suparna1964@yahoo.com",
+    "mobno": "9432231638",
+    "photo": "../../public/national-advisory/img33.jpg"
+  },
+  {
+    "id": "34",
+    "name": "Prof. T.N. Singh",
+    "designation": "Director",
+    "address": "NIT Patna",
+    "email": "director@iitp.ac.in",
+    "mobno": "+91-61115-233 001",
+    "photo": "../../public/national-advisory/img34.png"
+  },
+  {
+    "id": "35",
+    "name": "Prof. Sukumar Mishra",
+    "designation": "Director",
+    "address": "IIT (ISM) Dhanbad",
+    "email": "director@iitism.ac.in",
+    "mobno": "",
+    "photo": "../../public/national-advisory/img35.png"
+  },
+  {
+    "id": "36",
+    "name": "Prof. Kalyan Chatterjee",
+    "designation": "Professor",
+    "address": "EED, IIT (ISM) Dhanbad, India",
+    "email": "kalyanchatterjee@iitism.ac.in",
+    "mobno": "",
+    "photo": "../../public/national-advisory/img36.png"
+  },
+  {
+    "id": "37",
+    "name": "Prof. Amit Patra",
+    "designation": "Director & Professor",
+    "address": "EED, IIT BHU, Varanasi, India",
+    "email": "director@itbhu.ac.in",
+    "mobno": "",
+    "photo": "../../public/national-advisory/img37.png"
+  },
+  {
+    "id": "38",
+    "name": "Prof. R. K. Pandey",
+    "designation": "Professor",
+    "address": "EED, IIT BHU, Varanasi, India",
+    "email": "rkpandey.eee@iitbhu.ac.in",
+    "mobno": "9839218001",
+    "photo": "../../public/national-advisory/img38.png"
+  },
+  {
+    "id": "39",
+    "name": "Prof. Mairaj Ud Din Mufti",
+    "designation": "Professor & Head",
+    "address": "EED, NIT Srinagar, India",
+    "email": "mdmufti@nitsri.ac.in",
+    "mobno": "",
+    "photo": "../../public/national-advisory/img39.jpg"
+  },
+  {
+    "id": "40",
+    "name": "Prof. Abdul Hamid Bhat",
+    "designation": "Professor",
+    "address": "EED, NIT Srinagar, India",
+    "email": "bhatdee@nitsri.ac.in",
+    "mobno": "",
+    "photo": "../../public/national-advisory/img40.jpg"
+  },
+  {
+    "id": "41",
+    "name": "Prof. Mohammad Abid Bazaz",
+    "designation": "Professor",
+    "address": "EED, NIT Srinagar, India",
+    "email": "abid@nitsri.ac.in",
+    "mobno": "",
+    "photo": "../../public/national-advisory/img41.jpg"
+  }
+]
