@@ -321,10 +321,6 @@ export default function Navbar() {
               )}
             </div>
 
-            <Link to={'/authors'} className={Linkness('authors')}>
-              <p className={`text-base text-black`}>Authors </p>
-            </Link>
-
             <Link to={'/workshop'} className={Linkness('workshop')}>
               <p className={`text-base text-black`}>Workshop&Tutorials </p>
             </Link>
