@@ -481,7 +481,7 @@ export default function Navbar() {
                   className="flex items-center text-base font-semibold text-black"
                   onClick={() => setDropdownOpen2(!dropdownOpen2)}
                 >
-                  Speial Session
+                  Special Session
                   <svg
                     className="w-4 h-4 ml-2"
                     xmlns="http://www.w3.org/2000/svg"
