@@ -15,7 +15,7 @@
         "id": "3",
         "ss" : "SS3: Cyber-physical systems and smart urban infrastructures for sustainable future cities.",
         "organizer" : "(Organizers: Dr. Sachidananda Sen; Dr. Arvind Kumar Prajapati; Dr. Krishna Murari)",
-        "flyer": ""
+        "flyer": "https://drive.google.com/file/d/1x1COdDDUDgbQCdxAz98CPcXoycDCKs7N/"
     },
     {
         "id": "4",
@@ -45,6 +45,12 @@
         "id": "8",
         "ss" : "SS8: Green Paradox: Sustainable Manufacturing and Deployment of Renewable Energy Technologies",
         "organizer" : "(Organizers: Dr. Kasimala Venkatanagaraju; Dr. Monalisa Biswal; Dr. Suneel Raju Pendem)",
+        "flyer": "https://drive.google.com/file/d/12nb4K8Yz9hVlIcEKVGzfosTqMFMVYrLJ/view?usp=sharing"
+    },
+    {
+        "id": "9",
+        "ss" : "SS9: Cyber-Physical IoT for Industrial Automation",
+        "organizer" : "(Organizers: Dr. Ayush Kumar Agrawal; Dr. Jayendra Kumar)",
         "flyer": ""
     }
 ]

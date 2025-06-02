@@ -25,7 +25,7 @@ const ApprovedSession = () => {
                                     <p>{e.ss}</p>
                                     <p className='text-blue-600'>{e.organizer}</p>
                                 </div>
-                                {(e.id == 1 || e.id == 2 || e.id == 4 || e.id == 6 || e.id == 7) && <div className='w-3/12 flex items-center'>
+                                {(e.id != 5 && e.id != 9) && <div className='w-3/12 flex items-center'>
                                     <div><FaRegFilePdf className='text-blue-600'/></div>
                                     <a href={e.flyer} target='_blank' className='px-3 py-1  text-blue-600 hover:text-blue-800 hover:underline'>Flyer_SS{e.id}</a>
                                 </div>}
