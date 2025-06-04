@@ -36,18 +36,6 @@ const ImpDates = () => {
                                 <RiNewspaperLine />
                             </div>
 
-                            <p className="text-lg text-center">Special Session Proposal Submission closes </p>
-                            <p className="text-lg  ">25/05/2025</p>
-                        </div>
-
-                        <div className="flex flex-col justify-center gap-5 items-center p-4 px-8 border border-gray-200 rounded-2xl shadow-md w-[350px] min-h-[200px] hover:shadow-lg  transform transition-all hover:scale-105  bg-white duration-300"
-                            onMouseEnter={() => setIsHovered(true)}
-                            onMouseLeave={() => setIsHovered(false)}
-                        >
-                            <div className='text-3xl text-blue-600'>
-                                <RiNewspaperLine />
-                            </div>
-
                             <p className="text-lg  ">Paper Submission Closes </p>
                             <div className='flex gap-x-5'>
                                 <p className="text-lg ">10/06/2025 </p>
@@ -65,6 +53,20 @@ const ImpDates = () => {
 
                             <p className="text-lg  ">Notification of Acceptance </p>
                             <p className="text-lg  ">20/07/2025</p>
+                        </div>
+
+
+                        <div className="flex flex-col justify-center gap-2 items-center p-4 px-8 border border-gray-200 rounded-2xl shadow-md w-[350px] min-h-[200px] hover:shadow-lg  transform transition-all hover:scale-105  bg-white duration-300"
+                            onMouseEnter={() => setIsHovered(true)}
+                            onMouseLeave={() => setIsHovered(false)}
+                        >
+                            <div className='text-3xl text-blue-600'>
+                                <RiNewspaperLine />
+                            </div>
+
+                            <p className="text-base text-center">Special Session Proposal Submission closes </p>
+                            <p className="text-base line-through ">25/05/2025</p>
+                            <p className="text-base text-center">Special Session Proposal Submission Closed</p>
                         </div>
 
                         <div className="flex flex-col justify-center gap-5 items-center p-4 px-8 border border-gray-200 rounded-2xl shadow-md w-[350px] min-h-[200px] hover:shadow-lg  transform transition-all hover:scale-105  bg-white duration-300"

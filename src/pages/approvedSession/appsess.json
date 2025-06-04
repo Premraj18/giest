@@ -52,5 +52,17 @@
         "ss" : "SS9: Cyber-Physical IoT for Industrial Automation",
         "organizer" : "(Organizers: Dr. Ayush Kumar Agrawal; Dr. Jayendra Kumar)",
         "flyer": ""
+    },
+    {
+        "id": "10",
+        "ss" : "SS10: AI/ML-Based Predictive Maintenance and Blockchain-Enabled Solar Energy Systems for Sustainable Development",
+        "organizer" : "(Organizers: Dr. Ram Krishna; Dr. A D Dhass; Prof. Chittaranjan Sahay)",
+        "flyer": ""
+    },
+    {
+        "id": "11",
+        "ss" : "SS11: Computational Intelligence and Optimization for AI-Driven Applications",
+        "organizer" : "(Organizers: Dr Mukesh Kumar; Dr Vivek Bhardwaj; Dr. Anas Mohammad Ali Quteishat)",
+        "flyer": ""
     }
 ]
