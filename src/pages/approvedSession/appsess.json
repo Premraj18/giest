@@ -45,24 +45,30 @@
         "id": "8",
         "ss" : "SS8: Green Paradox: Sustainable Manufacturing and Deployment of Renewable Energy Technologies",
         "organizer" : "(Organizers: Dr. Kasimala Venkatanagaraju; Dr. Monalisa Biswal; Dr. Suneel Raju Pendem)",
-        "flyer": "https://drive.google.com/file/d/12nb4K8Yz9hVlIcEKVGzfosTqMFMVYrLJ/view?usp=sharing"
+        "flyer": "https://drive.google.com/file/d/12nb4K8Yz9hVlIcEKVGzfosTqMFMVYrLJ/"
     },
     {
         "id": "9",
         "ss" : "SS9: Cyber-Physical IoT for Industrial Automation",
         "organizer" : "(Organizers: Dr. Ayush Kumar Agrawal; Dr. Jayendra Kumar)",
-        "flyer": ""
+        "flyer": "https://drive.google.com/file/d/1Ua2wNuDyn48-j1Diy_0fQTeSylGUd3ob/"
     },
     {
         "id": "10",
         "ss" : "SS10: AI/ML-Based Predictive Maintenance and Blockchain-Enabled Solar Energy Systems for Sustainable Development",
         "organizer" : "(Organizers: Dr. Ram Krishna; Dr. A D Dhass; Prof. Chittaranjan Sahay)",
-        "flyer": ""
+        "flyer": "https://drive.google.com/file/d/1UHfCD5XVBV9-mRd5Wq0xCEDtZxnfsc-6/"
     },
     {
         "id": "11",
         "ss" : "SS11: Computational Intelligence and Optimization for AI-Driven Applications",
         "organizer" : "(Organizers: Dr Mukesh Kumar; Dr Vivek Bhardwaj; Dr. Anas Mohammad Ali Quteishat)",
-        "flyer": ""
+        "flyer": "https://drive.google.com/file/d/1ebNyTAChQ6v11XOJmmL2aIirQ4FPJ78Z/"
+    },
+    {
+        "id": "12",
+        "ss" : "SS12: AI/ML-Based Predictive Maintenance and Blockchain-Enabled Solar Energy Systems for Sustainable Development",
+        "organizer" : "(Organizers: Dr. Amit Kumar Yadav; Dr. Tarkeshwar Mahto; Dr. Hasmat Malik)",
+        "flyer": "https://drive.google.com/file/d/18DK91YATtiVTKqvYjOZPQEpyuD4-fgy4/"
     }
 ]
