@@ -18,7 +18,6 @@ const Callforpaper = () => {
                             <li>Wired and Wireless Charging Technologies and their Control.</li>
                             <li>Energy Storage Systems and their Power Flow Management.</li>
                             <li>Renewable Energy Integration, Control and Management.</li>
-                            <li>Green Manufacturing and Supply Chain Management.</li>
                             <li>Smart Grids and Energy Management Systems.</li>
                             <li>AI, ML, Cyber Security and IOT Applications to Sustainable Energy & e-mobility.</li>
                             <li>Automation, Control and Digitization for Industry Applications.</li>

@@ -13,7 +13,7 @@ const Footer = () => {
       <div className="flex flex-col md:flex-row gap-y-10 justify-center md:justify-evenly items-center md:p-8 px-4 py-8">
         <div className="flex flex-col text-center md:text-start gap-5 md:w-[23%]">
           <h2 className="text-lg font-semibold">GIEST-2025</h2>
-          <p>National Institute of Technology, Jamshedpur Jharkhand, 831014 <br /> India</p>
+          <p>National Institute of Technology Jamshedpur Jharkhand, 831014 <br /> India</p>
           <div>
             {/* <p className="font-medium">Linkedin : <span className="font-normal">@giest</span></p> */}
             <p className="font-medium">Email : <span className="font-normal">giestconf2025@gmail.com</span></p>

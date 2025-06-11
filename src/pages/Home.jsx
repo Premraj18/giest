@@ -17,7 +17,7 @@ const Home = () => {
       <RunningTab2 text="The Special Session proposal deadline is extend till 25th May 2025."/>
       <About/>
       <Countdown/>
-      <Regfee/>
+      {/* <Regfee/> */}
       <Contact/>
     </Layout>
   )
