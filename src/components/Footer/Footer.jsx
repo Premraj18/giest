@@ -1,9 +1,10 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
 import { BiCopyright, BiRightArrowAlt } from "react-icons/bi";
-import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaLinkedinIn, FaMailBulk } from "react-icons/fa";
 // eslint-disable-next-line no-unused-vars
 import { FaYoutube } from "react-icons/fa6";
+import { MdEmail } from "react-icons/md";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -14,18 +15,18 @@ const Footer = () => {
           <h2 className="text-lg font-semibold">GIEST-2025</h2>
           <p>National Institute of Technology, Jamshedpur Jharkhand, 831014 <br /> India</p>
           <div>
-            <p className="font-medium">Linkedin : <span className="font-normal">@giest</span></p>
-            <p className="font-medium">Email : <span className="font-normal">giest2025@gmail.com</span></p>
+            {/* <p className="font-medium">Linkedin : <span className="font-normal">@giest</span></p> */}
+            <p className="font-medium">Email : <span className="font-normal">giestconf2025@gmail.com</span></p>
           </div>
         </div>
         <div className="flex flex-col items-center md:items-start">
           <p className="text-lg font-semibold my-3">Useful Links</p>
           <ul className="flex flex-wrap md:flex-col gap-2 text-sm justify-center ">
-            <Link to='/authors'>
+            <Link to='/callforpaper'>
               <li className="flex items-center gap-2 cursor-pointer "><BiRightArrowAlt className="text-orange-600 hidden md:block" />Authors <span className="md:hidden text-xl" >|</span></li>
             </Link>
-            <Link to='/speaker'>
-              <li className="flex items-center gap-2 cursor-pointer "><BiRightArrowAlt className="text-orange-600 hidden md:block" />Speakers <span className="md:hidden text-xl" >|</span></li>
+            <Link to='/specialSession'>
+              <li className="flex items-center gap-2 cursor-pointer "><BiRightArrowAlt className="text-orange-600 hidden md:block" />Special Session<span className="md:hidden text-xl" >|</span></li>
             </Link>
             {/* <Link to='/sponser'>
               <li className="flex items-center gap-2 cursor-pointer "><BiRightArrowAlt className="text-orange-600 hidden md:block" />Sponser us <span className="md:hidden text-xl" >|</span></li>
@@ -45,10 +46,10 @@ const Footer = () => {
           <h2 className="text-lg font-semibold">Our Social Networks</h2>
           <p>Get in touch with us</p>
           <div className="flex items-center gap-5">
-            <a href="https://www.linkedin.com/company/eesnitjsr/" target="_blank" rel="noreferrer"><FaLinkedinIn  className="border bg-gray-800 p-1 rounded-full text-white cursor-pointer text-2xl"/></a>
-            <a href="https://www.facebook.com/eesnitjsr" target="_blank" rel="noreferrer"><FaFacebookF className="border bg-gray-800 p-1 rounded-full text-white cursor-pointer text-2xl"/></a>
+            <a href="" target="_blank" rel="noreferrer"><FaLinkedinIn  className="border bg-gray-800 p-1 rounded-full text-white cursor-pointer text-2xl"/></a>
+            <a href="" target="_blank" rel="noreferrer"><FaFacebookF className="border bg-gray-800 p-1 rounded-full text-white cursor-pointer text-2xl"/></a>
             {/* <a href="" target="_blank"><FaYoutube className="border bg-gray-800 p-1 rounded-full text-white cursor-pointer text-2xl"/></a> */}
-            <a href="https://www.instagram.com/ees_nitjsr/" target="_blank" rel="noreferrer"><FaInstagram className="border bg-gray-800 p-1 rounded-full text-white cursor-pointer text-2xl"/></a>
+            <a href="" target="_blank" rel="noreferrer"><MdEmail className="border bg-gray-800 p-1 rounded-full text-white cursor-pointer text-2xl"/></a>
           </div>
         </div>
       </div>

@@ -325,7 +325,7 @@ export default function Navbar() {
               <p className={`text-base text-black`}>Workshop&Tutorials </p>
             </Link>
             <Link to={'/sponsorship'} className={Linkness('sponsorship')}>
-              <p className={`text-base text-black`}>Sponsership </p>
+              <p className={`text-base text-black`}>Sponsorship </p>
             </Link>
             {/* <Link to={'/accomodation'} className={Linkness('accomodation')}>
               <p className={`text-base text-black`}>Accomodation </p>
@@ -570,7 +570,7 @@ export default function Navbar() {
                 <p className={`text-base text-black`}>Workshop&Tutorials </p>
               </Link>
               <Link to={'/sponsorship'} className={Linkness('sponsorship')}>
-                <p className={`text-base text-black`}>Sponsership </p>
+                <p className={`text-base text-black`}>Sponsorship </p>
               </Link>
               {/* <Link to={'/accomodation'} className={Linkness('accomodation')}>
                 <p className={`text-base text-black`}>Accomodation </p>
