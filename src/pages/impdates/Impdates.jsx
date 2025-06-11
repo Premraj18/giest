@@ -65,7 +65,7 @@ const ImpDates = () => {
                             </div>
 
                             <p className="text-base text-center">Special Session Proposal Submission closes </p>
-                            <p className="text-base line-through ">25/05/2025</p>
+                            <p className="text-base ">25/05/2025</p>
                             <p className="text-base text-center">Special Session Proposal Submission Closed</p>
                         </div>
 
