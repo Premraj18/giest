@@ -30,7 +30,7 @@ const specialsession = () => {
                         <div>
                             <p className='text-xl md:text-2xl font-semibold text-blue-600' >Important Dates for Special Sessions:</p>
                             <p className='pt-6 md:text-lg'>
-                                Last date Submission of proposals: <span className='font-semibold text-blue-500 line-through'> 25th May, 2025</span>  <span className='font-semibold text-blue-500'>  Special Session Proposal Submission Closed </span> 
+                                Last date Submission of proposals: <span className='font-semibold text-blue-500'> 25th May, 2025</span>  <span className='font-semibold text-blue-500'>  Special Session Proposal Submission Closed </span> 
                             </p>
                             <p className='pb-3 md:text-lg'>
                                 Notification of decision: <span className='font-semibold text-blue-500'> Within one week of submission</span>
