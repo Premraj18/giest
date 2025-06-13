@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "name": "Prof. Anurag K Srivastava",
+    "affiliation": "West Virginia University",
+    "email": ["anurag.srivastava@mail.wvu.edu"],
+    "img": "/international-advisory/img1.webp"
+  },
+  {
+    "id": 2,
+    "name": "Prof. Celia Shahnaz",
+    "affiliation": "BUET, Bangladesh",
+    "email": ["celia@eee.buet.ac.bd", "celia.shahnaz@gmail.com"],
+    "img": "/international-advisory/img2.webp"
+  },
+  {
+    "id": 3,
+    "name": "Prof. Frede Blaabjerg",
+    "affiliation": "Aalborg University, Denmark",
+    "email": ["fbl@energy.aau.dk"],
+    "img": "/international-advisory/img3.webp"
+  },
+  {
+    "id": 4,
+    "name": "Prof. Guissepe Buja",
+    "affiliation": "University of Padova, Italy",
+    "email": ["giuseppe.buja@unipd.it"],
+    "img": "/international-advisory/img4.webp"
+  },
+  {
+    "id": 5,
+    "name": "Prof. Kashem Muttaqui",
+    "affiliation": "University of Wollongong, Australia",
+    "email": ["kashem_muttaqi@uow.edu.a"],
+    "img": "/international-advisory/img5.webp"
+  },
+  {
+    "id": 6,
+    "name": "Prof. Katsura Seiichiro",
+    "affiliation": "Keio University, Japan",
+    "email": ["katsura@sd.keio.ac.jp"],
+    "img": "/international-advisory/img6.webp"
+  },
+  {
+    "id": 7,
+    "name": "Prof. Kaushik Rajashekara",
+    "affiliation": "University of Houston, USA",
+    "email": ["ksraja@uh.edu"],
+    "img": "/international-advisory/img7.webp"
+  },
+  {
+    "id": 8,
+    "name": "Dr. Manuele Bertoluzzo",
+    "affiliation": "Univ. of Padova, Italy",
+    "email": ["manuele.bertoluzzo@unipd.it"],
+    "img": "/international-advisory/img8.webp"
+  },
+  {
+    "id": 9,
+    "name": "Prof. Marco Liserre",
+    "affiliation": "Kiel University, Germany",
+    "email": ["ml@tf.uni-kiel.de"],
+    "img": "/international-advisory/img10.webp"
+  },
+  {
+    "id": 10,
+    "name": "Prof. Mattia Rossi",
+    "affiliation": "Tampere University, Finland",
+    "email": ["mattia.rossi@ieee.org"],
+    "img": "/international-advisory/img9.webp"
+  },
+  {
+    "id": 11,
+    "name": "Prof. M.E.H. Benbouzid",
+    "affiliation": "University of Brest, France",
+    "email": ["m.benbouzid@ieee.org"],
+    "img": "/international-advisory/img11.webp"
+  },
+  {
+    "id": 12,
+    "name": "Prof. Pat Wheeler",
+    "affiliation": "University of Nottingham, UK",
+    "email": ["pat.wheeler@nottingham.ac.uk"],
+    "img": "/international-advisory/img12.webp"
+  },
+  {
+    "id": 13,
+    "name": "Prof. Qing-Chang Zhong",
+    "affiliation": "University of Sheffield, UK",
+    "email": ["zhongqc@iit.edu"],
+    "img": "/international-advisory/img13.webp"
+  },
+  {
+    "id": 14,
+    "name": "Prof. Ramesh Bansal",
+    "affiliation": "University of Sharjah, UAE",
+    "email": ["rbansal@sharjah.ac.ae"],
+    "img": "/international-advisory/img14.webp"
+  },
+  {
+    "id": 15,
+    "name": "Prof. Saad Mekhilef",
+    "affiliation": "Swinburne University of Technology, Australia",
+    "email": ["smekhilef@swin.edu.au"],
+    "img": "/international-advisory/img15.webp"
+  },
+  {
+    "id": 16,
+    "name": "Dr. Sanjeet Dwivedi",
+    "affiliation": "Siemens Gamesa, Denmark",
+    "email": ["contact@sanjeetkumardwivedi.dk"],
+    "img": "/international-advisory/img16.webp"
+  },
+  {
+    "id": 17,
+    "name": "Prof. Sanjib Kr Panda",
+    "affiliation": "National University Singapore",
+    "email": ["eleskp@nus.edu.sg"],
+    "img": "/international-advisory/img17.webp"
+  },
+  {
+    "id": 18,
+    "name": "Prof. Sheldon Williamson",
+    "affiliation": "Ontario Tech University, Canada",
+    "email": ["sheldon.williamson@ontariotechu.ca"],
+    "img": "/international-advisory/img18.webp"
+  },
+  {
+    "id": 19,
+    "name": "Prof. Szemes Peter",
+    "affiliation": "University of Debrecen, Hungary",
+    "email": ["szemespeter@eng.unideb.hu"],
+    "img": "/international-advisory/img19.webp"
+  },
+  {
+    "id": 20,
+    "name": "Prof. Vinod Khadkikar",
+    "affiliation": "Khalifa Univ., Abu Dhabi, UAE",
+    "email": ["vinod.khadkikar@ku.ac.ae"],
+    "img": "/international-advisory/img20.webp"
+  }
+]
