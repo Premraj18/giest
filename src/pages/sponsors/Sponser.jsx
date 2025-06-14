@@ -59,13 +59,13 @@ const Sponser = () => {
                     GIEST-2025 Sponsorship Packages
                 </h1>
 
-                {/* <p>We are pleased to offer sponsorship opportunities for GIEST-2025. Our sponsorship packages are designed to provide maximum visibility and engagement with attendees through various levels of support.</p> */}
+                <p className='text-center text-lg font-medium mb-10 md:px-20'>We are pleased to offer sponsorship opportunities for GIEST-2025. Our sponsorship packages are designed to provide maximum visibility and engagement with attendees through various levels of support.</p>
 
                 <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
                     {sponsorships.map((sponsor, idx) => (
-                        <div key={idx} className="border rounded-2xl p-6 shadow hover:shadow-lg transition">
+                        <div key={idx} className={`border rounded-2xl p-6 shadow hover:shadow-lg transition ${sponsor.tier == "Gold" && "bg-amber-400"} ${sponsor.tier == "Silver" && "bg-gray-400"} ${sponsor.tier == "Bronze" && "bg-yellow-900 text-white"} ${sponsor.tier == "Diamond" && "bg-stone-200"}`}> 
                             <h2 className="text-xl font-bold text-center text-indigo-600 mb-2">{sponsor.tier}</h2>
-                            <p className="text-center text-gray-700 font-semibold mb-4">{sponsor.price}</p>
+                            <p className={`text-center text-gray-700 font-semibold mb-4 ${sponsor.tier == "Bronze" && "text-white"}`}>{sponsor.price}</p>
                             <ul className="space-y-2 text-sm">
                                 <li>🎓 Free Author Registrations: {sponsor.authors}</li>
                                 <li>👥 Free Attendee Registrations: {sponsor.attendees}</li>

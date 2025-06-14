@@ -12,7 +12,7 @@ const Registrationdetails = () => {
                 <Regfee/>
                 <Regfee2/>
                 <div className='md:px-20 px-2 md:-mt-10 pb-8'>
-                    <p className='md:text-xl font-medium text-lg'><span className='font-bold underline'>Note:- </span>Each author registration covers only one accepted papers. However, for second paper
+                    <p className='text-xl font-semibold text-red-600'><span className='font-bold underline'>Note:- </span>Each author registration covers only one accepted papers. However, for second paper
                     registering by the same author will be provided a 40% discount in the respective category
                     of required registration fee</p>
                 </div>
