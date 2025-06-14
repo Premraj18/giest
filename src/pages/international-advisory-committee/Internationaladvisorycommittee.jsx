@@ -19,11 +19,11 @@ const Internationaladvisorycommittee = () => {
                             >
                                 <div className='w-full h-full flex flex-col items-center justify-center px-2 gap-10 lg:gap-10'>
                                     <div className=''>
-                                        <img src={e.img} alt="" className='w-[115px] h-28 md:w-28 md:h-28  rounded-[100%] object-cover shadow-2xl' />
+                                        <img src={e.img} alt="" className='w-[115px] h-28 md:w-28 md:h-28 object-cover rounded-[100%] shadow-2xl' />
                                     </div>
                                     <div className='flex flex-col items-center justify-center gap-2 '>
                                         <h2 className='text-lg font-semibold'>{e.name}</h2>
-                                        <p>{e.affiliation}</p>
+                                        <p className='text-center'>{e.affiliation}</p>
                                         {/* <p>{e.address}</p> */}
                                         {/* <p>{e.email}</p>
                                         <p>{e.mobno}</p> */}
