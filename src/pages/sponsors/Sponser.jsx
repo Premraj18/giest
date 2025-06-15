@@ -56,10 +56,14 @@ const Sponser = () => {
         <Layout>
             <div className="p-6 pt-44 bg-white text-gray-800">
                 <h1 className="text-3xl text-blue-600 font-bold text-center mb-8">
-                    GIEST-2025 Sponsorship Packages
+                    GIEST-2025 Sponsorship Proposal
                 </h1>
 
                 <p className='text-center text-lg font-medium mb-10 md:px-20'>We are pleased to offer sponsorship opportunities for GIEST-2025. Our sponsorship packages are designed to provide maximum visibility and engagement with attendees through various levels of support.</p>
+
+                <h1 className="text-3xl text-blue-600 font-bold text-center mb-8">
+                    Sponsorship Package
+                </h1>
 
                 <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
                     {sponsorships.map((sponsor, idx) => (
