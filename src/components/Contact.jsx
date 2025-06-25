@@ -41,7 +41,7 @@ const Contact = () => {
 
                     <h2 className="mt-4 text-lg font-medium text-gray-800 ">Phone</h2>
                     <p className="mt-2 text-gray-500 ">Mon-Fri from 8am to 5pm.</p>
-                    <p className="mt-2 text-blue-500 ">+91-9006058445</p>
+                    <p className="mt-2 text-blue-500 ">+91-9006058445 / +91-8862950216</p>
                 </div>
             </div>
         </div>
