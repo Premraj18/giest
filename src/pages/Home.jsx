@@ -14,7 +14,7 @@ const Home = () => {
     <Layout>
       <HeroSection/>
       <RunningTab text="“2025 IEEE 2nd International Conference on Green Industrial Electronics and Sustainable Technologies” will be organized by the Electrical Engineering Department, NIT Jamshedpur from 11th to 13th October 2025 in"/>
-      <RunningTab2 text="The Special Session proposal deadline is extend till 25th May 2025."/>
+      <RunningTab2 text="Due to several requests from prospective authors, the paper submission deadline for GIEST-2025 has been extended until 10/07/2025 (Hard Deadline)."/>
       <About/>
       <Countdown/>
       {/* <Regfee/> */}

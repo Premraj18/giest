@@ -38,8 +38,8 @@ const ImpDates = () => {
 
                             <p className="text-lg  ">Paper Submission Closes </p>
                             <div className='flex gap-x-5 flex-col'>
-                                <p className="text-lg line-through">10/06/2025 </p>
-                                <p className="text-lg  text-lime-600">25/06/2025 </p>
+                                <p className="text-lg ">10/07/2025 (Hard Deadline) </p>
+                                {/* <p className="text-lg  text-lime-600">25/06/2025 </p> */}
                             </div>
                         </div>
 
