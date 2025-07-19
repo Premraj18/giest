@@ -43,7 +43,7 @@ const ImpDates = () => {
                             </div>
                         </div>
 
-                        <div className="flex flex-col justify-center gap-5 items-center p-4 px-8 border border-gray-200 rounded-2xl shadow-md w-[350px] min-h-[200px] hover:shadow-lg  transform transition-all hover:scale-105  bg-white duration-300"
+                        <div className="flex flex-col justify-center gap-3 items-center p-4 px-8 border border-gray-200 rounded-2xl shadow-md w-[350px] min-h-[200px] hover:shadow-lg  transform transition-all hover:scale-105  bg-white duration-300"
                             onMouseEnter={() => setIsHovered(true)}
                             onMouseLeave={() => setIsHovered(false)}
                         >
@@ -52,7 +52,8 @@ const ImpDates = () => {
                             </div>
 
                             <p className="text-lg  ">Notification of Acceptance </p>
-                            <p className="text-lg  ">20/07/2025</p>
+                            <p className="text-lg line-through ">20/07/2025</p>
+                            <p className="text-lg  ">08/08/2025</p>
                         </div>
 
 
