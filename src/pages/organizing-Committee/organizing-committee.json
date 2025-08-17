@@ -1,0 +1,527 @@
+[
+  {
+    "id": "1",
+    "name": "Prof. Goutam Sutradhar",
+    "designation": "Chief Patron",
+    "address": "Director, NIT Jamshedpur",
+    "photo": "organizing-committee/img1.png"
+  },
+  {
+    "id": "2",
+    "name": "Prof. R.V. Sharma",
+    "designation": "Patron",
+    "address": "Deputy Director, NIT Jamshedpur",
+    "photo": "organizing-committee/img2.png"
+  },
+  {
+    "id": "3",
+    "name": "Prof. Satish Kumar",
+    "designation": "Co-Patron",
+    "address": "Dean (R &C)",
+    "photo": "organizing-committee/img3.png"
+  },
+  {
+    "id": "4",
+    "name": "Prof. Andy Knight",
+    "designation": "Honorary Chair",
+    "address": "President, IEEE IAS, USA",
+    "photo": "organizing-committee/img4.png"
+  },
+  {
+    "id": "5",
+    "name": "Prof. Aymal-El-Refaie",
+    "designation": "Honorary Chair",
+    "address": "Marquette Univ., Milwaukee, USA",
+    "photo": "organizing-committee/img5.png"
+  },
+  {
+    "id": "6",
+    "name": "Prof. Milos Manic",
+    "designation": "Honorary Chair",
+    "address": "President, IEEE IES, USA",
+    "photo": "organizing-committee/img6.png"
+  },
+  {
+    "id": "7",
+    "name": "Prof. Akshay Rathore",
+    "designation": "Honorary Chair",
+    "address": "SIT, Singapore",
+    "photo": "organizing-committee/img7.png"
+  },
+  {
+    "id": "8",
+    "name": "Prof. Sukumar Mishra",
+    "designation": "Honorary Chair",
+    "address": "Director, IIT (ISM) Dhanbad",
+    "photo": "organizing-committee/img8.png"
+  },
+  {
+    "id": "9",
+    "name": "Prof. Bidyadhar Subudhi",
+    "designation": "Honorary Chair",
+    "address": "Director, NIT Warangal",
+    "photo": "organizing-committee/img9.png"
+  },
+  {
+    "id": "10",
+    "name": "Prof. N P Padhy",
+    "designation": "Honorary Chair",
+    "address": "Director, MNIT Jaipur",
+    "photo": "organizing-committee/img10.png"
+  },
+  {
+    "id": "11",
+    "name": "Prof. D. V. L. N. Somayajulu",
+    "designation": "Honorary Chair",
+    "address": "Director, NIT Manipur",
+    "photo": "organizing-committee/img11.png"
+  },
+  {
+    "id": "12",
+    "name": "Prof. S. N. Singh",
+    "designation": "Honorary Chair",
+    "address": "Director, ABV-IIITM Gwalior",
+    "photo": "organizing-committee/img12.png"
+  },
+  {
+    "id": "13",
+    "name": "Prof. Sujit K Biswas",
+    "designation": "Honorary Chair",
+    "address": "Conf. Representative, Kolkata Section",
+    "photo": "organizing-committee/img13.png"
+  },
+  {
+    "id": "14",
+    "name": "Prof. F. A. Talukdar",
+    "designation": "Honorary Chair",
+    "address": "IEEE Silchar Subsection",
+    "photo": "organizing-committee/img14.png"
+  },
+  {
+    "id": "15",
+    "name": "Dr. Madhu Singh",
+    "designation": "General Chair",
+    "address": "NIT Jamshedpur",
+    "photo": "organizing-committee/img15.png"
+  },
+  {
+    "id": "16",
+    "name": "Prof. R. N. Mahanty",
+    "designation": "General Chair",
+    "address": "NIT Jamshedpur",
+    "photo": "organizing-committee/img16.png"
+  },
+  {
+    "id": "17",
+    "name": "Prof. Subrata Banerjee",
+    "designation": "General Chair",
+    "address": "NIT Durgapur",
+    "photo": "organizing-committee/img17.png"
+  },
+  {
+    "id": "18",
+    "name": "Prof. K.B. Yadav",
+    "designation": "General Chair",
+    "address": "NIT Jamshedpur",
+    "photo": "organizing-committee/img18.png"
+  },
+  {
+    "id": "19",
+    "name": "Prof. Suparna Kar Choudhury",
+    "designation": "General Chair",
+    "address": "Chair, IEEE Kolkata Section",
+    "photo": "organizing-committee/img19.png"
+  },
+  {
+    "id": "20",
+    "name": "Prof. Niranjan Kumar",
+    "designation": "General Co-Chair",
+    "address": "NIT Jamshedpur",
+    "photo": "organizing-committee/img20.png"
+  },
+  {
+    "id": "21",
+    "name": "Prof. U K Sinha",
+    "designation": "General Co-Chair",
+    "address": "NIT Jamshedpur",
+    "photo": "organizing-committee/img21.png"
+  },
+  {
+    "id": "22",
+    "name": "Dr. S K Gupta",
+    "designation": "General Co-Chair",
+    "address": "NIT Jamshedpur",
+    "photo": "organizing-committee/img22.png"
+  },
+  {
+    "id": "23",
+    "name": "Dr. Kumari Namrata",
+    "designation": "General Co-Chair",
+    "address": "NIT Jamshedpur",
+    "photo": "organizing-committee/img23.png"
+  },
+  {
+    "id": "24",
+    "name": "Dr. Kundan Kumar",
+    "designation": "Organizing Chair",
+    "address": "NIT Jamshedpur",
+    "photo": "organizing-committee/img24.png"
+  },
+  {
+    "id": "25",
+    "name": "Dr. Benjamin A Shimray",
+    "designation": "Organizing Chair",
+    "address": "NIT Manipur",
+    "photo": "organizing-committee/img25.png"
+  },
+  {
+    "id": "26",
+    "name": "Dr. Tanmoy Roy Choudhury",
+    "designation": "Organizing Chair",
+    "address": "NIT Rourkela",
+    "photo": "organizing-committee/img26.png"
+  },
+  {
+    "id": "27",
+    "name": "Dr. Ravi Bhushan",
+    "designation": "Organizing Secretary",
+    "address": "NIT Jamshedpur",
+    "photo": "organizing-committee/img27.png"
+  },
+  {
+    "id": "28",
+    "name": "Dr. Sanjay Kumar",
+    "designation": "Organizing Secretary",
+    "address": "NIT Jamshedpur",
+    "photo": "organizing-committee/img28.png"
+  },
+  {
+    "id": "29",
+    "name": "Dr. Ananyo Bhattacharya",
+    "designation": "Technical Program Chair",
+    "address": "NIT Jamshedpur",
+    "photo": "organizing-committee/img29.png"
+  },
+  {
+    "id": "30",
+    "name": "Dr. Olive Ray",
+    "designation": "Technical Program Chair",
+    "address": "IIT Bhubaneswar",
+    "photo": "organizing-committee/img30.png"
+  },
+  {
+    "id": "31",
+    "name": "Dr. Dipankar Debnath",
+    "designation": "Technical Program Chair",
+    "address": "IIT Kharagpur",
+    "photo": "organizing-committee/img31.png"
+  },
+  {
+    "id": "32",
+    "name": "Dr. Arun Verma",
+    "designation": "Technical Program Chair",
+    "address": "IIT Jammu",
+    "photo": "organizing-committee/img32.png"
+  },
+  {
+    "id": "33",
+    "name": "Dr. Suvendu Samanta",
+    "designation": "Technical Program Chair",
+    "address": "IIT Kanpur",
+    "photo": "organizing-committee/img33.png"
+  },
+  {
+    "id": "34",
+    "name": "Dr. Pallavi Bharadwaj",
+    "designation": "Technical Program Chair",
+    "address": "IIT Gandhinagar",
+    "photo": "organizing-committee/img34.png"
+  },
+  {
+    "id": "35",
+    "name": "Dr. Nishant Kumar",
+    "designation": "Technical Program Chair",
+    "address": "IIT Jodhpur",
+    "photo": "organizing-committee/img35.png"
+  },
+  {
+    "id": "36",
+    "name": "Dr. O. C. Sekhar",
+    "designation": "Technical Program Chair",
+    "address": "NIT Delhi",
+    "photo": "organizing-committee/img36.png"
+  },
+  {
+    "id": "37",
+    "name": "Dr. Shelas Sathyan",
+    "designation": "Technical Program Chair",
+    "address": "NIT Tiruchirappalli",
+    "photo": "organizing-committee/img37.png"
+  },
+  {
+    "id": "38",
+    "name": "Dr. Vimlesh Verma",
+    "designation": "Technical Program Chair",
+    "address": "NIT Patna",
+    "photo": "organizing-committee/img38.png"
+  },
+  {
+    "id": "39",
+    "name": "Dr. Tridibesh Nag",
+    "designation": "Technical Program Chair",
+    "address": "Secretary, IEEE Kolkata Section",
+    "photo": "organizing-committee/img39.png"
+  },
+  {
+    "id": "40",
+    "name": "Dr. Sabindra Kachhap",
+    "designation": "Technical Program Chair",
+    "address": "NIT Manipur",
+    "photo": "organizing-committee/img40.png"
+  },
+  {
+    "id": "41",
+    "name": "Dr. Farouk Zouari",
+    "designation": "Technical Program Chair",
+    "address": "Univ. of Tunis El Manar, Tunisia",
+    "photo": "organizing-committee/img41.png"
+  },
+  {
+    "id": "42",
+    "name": "Dr. Om Hari Gupta",
+    "designation": "Publication Chair",
+    "address": "NIT Jamshedpur",
+    "photo": "organizing-committee/img42.png"
+  },
+  {
+    "id": "43",
+    "name": "Dr. Jitendra Kumar",
+    "designation": "Publication Chair",
+    "address": "NIT Jamshedpur",
+    "photo": "organizing-committee/img43.png"
+  },
+  {
+    "id": "44",
+    "name": "Dr. Ravi Raushan",
+    "designation": "Publication Chair",
+    "address": "NIT Surathkal",
+    "photo": "organizing-committee/img44.png"
+  },
+  {
+    "id": "45",
+    "name": "Dr. Ravi Shankar",
+    "designation": "Publication Chair",
+    "address": "NIT Patna",
+    "photo": "organizing-committee/img45.png"
+  },
+  {
+    "id": "46",
+    "name": "Dr. Lalit Kumar Sahoo",
+    "designation": "Publication Chair",
+    "address": "IIT Bhilai",
+    "photo": "organizing-committee/img46.png"
+  },
+  {
+    "id": "47",
+    "name": "Dr. Nidhi Mishra",
+    "designation": "Publication Chair",
+    "address": "BIT Mesra, Patna",
+    "photo": "organizing-committee/img47.png"
+  },
+  {
+    "id": "48",
+    "name": "Dr. Atanu Kundu",
+    "designation": "Publication Chair",
+    "address": "Vice-Chair, IEEE Kolkata Section",
+    "photo": "organizing-committee/img48.png"
+  },
+  {
+    "id": "49",
+    "name": "Dr. Koena Mukherjee",
+    "designation": "Publication Chair",
+    "address": "Secretary, IEEE Silchar Subsection",
+    "photo": "organizing-committee/img49.png"
+  },
+  {
+    "id": "50",
+    "name": "Dr. Supriyo Das",
+    "designation": "Conference Treasurer",
+    "address": "NIT Jamshedpur",
+    "photo": "organizing-committee/img50.png"
+  },
+  {
+    "id": "51",
+    "name": "Dr. Ravi Bhushan",
+    "designation": "Conference Treasurer",
+    "address": "NIT Jamshedpur",
+    "photo": "organizing-committee/img51.png"
+  },
+  {
+    "id": "52",
+    "name": "Dr. Shuma Adhikari",
+    "designation": "Conference Treasurer",
+    "address": "NIT Manipur",
+    "photo": "organizing-committee/img52.png"
+  },
+  {
+    "id": "53",
+    "name": "Dr. Mrinal Kanti Sarkar",
+    "designation": "Coordinator",
+    "address": "NIT Jamshedpur",
+    "photo": "organizing-committee/img53.png"
+  },
+  {
+    "id": "54",
+    "name": "Dr. Simanta Kumar Samal",
+    "designation": "Coordinator",
+    "address": "NIT Jamshedpur",
+    "photo": "organizing-committee/img54.png"
+  },
+  {
+    "id": "55",
+    "name": "Dr. Ravi Bhushan",
+    "designation": "Sponsorship Chair",
+    "address": "NIT Jamshedpur",
+    "photo": "organizing-committee/img55.png"
+  },
+  {
+    "id": "56",
+    "name": "Dr. Alok Priyadarshi",
+    "designation": "Sponsorship Chair",
+    "address": "NIT Jamshedpur",
+    "photo": "organizing-committee/img56.png"
+  },
+  {
+    "id": "57",
+    "name": "Dr. Suryaprakash",
+    "designation": "Sponsorship Chair",
+    "address": "NIT Jamshedpur",
+    "photo": "organizing-committee/img57.png"
+  },
+  {
+    "id": "58",
+    "name": "Dr. Anil Kumar Birru",
+    "designation": "Sponsorship Chair",
+    "address": "NIT Manipur",
+    "photo": "organizing-committee/img58.png"
+  },
+  {
+    "id": "59",
+    "name": "Dr. Shubhranshu K Tiwary",
+    "designation": "Tutorial Chair",
+    "address": "NIT Jamshedpur",
+    "photo": "organizing-committee/img59.png"
+  },
+  {
+    "id": "60",
+    "name": "Dr. Raghwendra K Naik",
+    "designation": "Tutorial Chair",
+    "address": "NIT Jamshedpur",
+    "photo": "organizing-committee/img60.png"
+  },
+  {
+    "id": "61",
+    "name": "Dr. Veer Pratap Meena",
+    "designation": "Tutorial Chair",
+    "address": "NIT Jamshedpur",
+    "photo": "organizing-committee/img61.png"
+  },
+  {
+    "id": "62",
+    "name": "Dr. Ashish Kr Ranjan",
+    "designation": "Tutorial Chair",
+    "address": "NIT Manipur",
+    "photo": "organizing-committee/img62.png"
+  },
+  {
+    "id": "63",
+    "name": "Dr. Deepak Kumar",
+    "designation": "Publicity Chair",
+    "address": "MNNIT Allahabad",
+    "photo": "organizing-committee/img63.png"
+  },
+  {
+    "id": "64",
+    "name": "Dr. Amit Kumar",
+    "designation": "Publicity Chair",
+    "address": "NIT Kurukshetra",
+    "photo": "organizing-committee/img64.png"
+  },
+  {
+    "id": "65",
+    "name": "Dr. Pradeep Kumar",
+    "designation": "Publicity Chair",
+    "address": "NIT Sikkim",
+    "photo": "organizing-committee/img65.png"
+  },
+  {
+    "id": "66",
+    "name": "Dr. Ajit Kumar",
+    "designation": "Publicity Chair",
+    "address": "NIT Patna",
+    "photo": "organizing-committee/img66.png"
+  },
+  {
+    "id": "67",
+    "name": "Dr. Neeraj Gupta",
+    "designation": "Publicity Chair",
+    "address": "NIT Srinagar",
+    "photo": "organizing-committee/img67.png"
+  },
+  {
+    "id": "68",
+    "name": "Dr. Chilaka Ranga",
+    "designation": "Publicity Chair",
+    "address": "NIT Raipur",
+    "photo": "organizing-committee/img68.png"
+  },
+  {
+    "id": "69",
+    "name": "Dr. Vima Mali",
+    "designation": "Publicity Chair",
+    "address": "PDEU, Gujarat",
+    "photo": "organizing-committee/img69.png"
+  },
+  {
+    "id": "70",
+    "name": "Dr. Asha Rani",
+    "designation": "WIE Chair",
+    "address": "NIT Silchar",
+    "photo": "organizing-committee/img70.png"
+  },
+  {
+    "id": "71",
+    "name": "Dr. Shuma Adhikari",
+    "designation": "WIE Chair",
+    "address": "NIT Manipur",
+    "photo": "organizing-committee/img71.png"
+  },
+  {
+    "id": "72",
+    "name": "Dr. Sunanda Sinha",
+    "designation": "WIE Chair",
+    "address": "MNIT Jaipur",
+    "photo": "organizing-committee/img72.png"
+  },
+  {
+    "id": "73",
+    "name": "Prof. Renu Sharma",
+    "designation": "WIE Chair",
+    "address": "SOA University",
+    "photo": "organizing-committee/img73.png"
+  },
+  {
+    "id": "74",
+    "name": "Dr. Vima Mali",
+    "designation": "WIE Co-Chair",
+    "address": "PDEU, Gujarat",
+    "photo": "organizing-committee/img74.png"
+  },
+  {
+    "id": "75",
+    "name": "Dr. Vigya",
+    "designation": "WIE Co-Chair",
+    "address": "CDAC Bangalore",
+    "photo": "organizing-committee/img75.png"
+  }
+]
