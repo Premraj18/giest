@@ -78,7 +78,7 @@ const ImpDates = () => {
                                 <BsEnvelopePaper />
                             </div>
 
-                            <p className="text-lg  ">Final Camera-ready paper </p>
+                            <p className="text-lg  ">Camera-ready Paper Submission Closes </p>
                             <p className="text-lg  line-through">20/08/2025</p>
                             <p className="text-lg  ">31/08/2025</p>
                         </div>
