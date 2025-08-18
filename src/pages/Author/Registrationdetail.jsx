@@ -1,4 +1,3 @@
-import React from 'react'
 import Layout from '../../components/Layout'
 import Regfee from '../../components/Regfee'
 import Regfee2 from './Regfee2'
@@ -17,6 +16,9 @@ const Registrationdetails = () => {
                     of required registration fee</p>
                 </div>
                 <div className='md:px-20 px-2 md:mt-10 pb-8'>
+
+                    {/* Add Table here */}
+
                     <RegistrationDetails/>
                 </div>
             </div>
