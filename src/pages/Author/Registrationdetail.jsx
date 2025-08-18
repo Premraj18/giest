@@ -2,6 +2,7 @@ import Layout from '../../components/Layout'
 import Regfee from '../../components/Regfee'
 import Regfee2 from './Regfee2'
 import RegistrationDetails from './regDet'
+import BankDetails from './BankDetails'
 
 const Registrationdetails = () => {
     return (
@@ -15,10 +16,8 @@ const Registrationdetails = () => {
                     registering by the same author will be provided a 40% discount in the respective category
                     of required registration fee</p>
                 </div>
-                <div className='md:px-20 px-2 md:mt-10 pb-8'>
-
-                    {/* Add Table here */}
-
+                <div className='md:px-20 px-2 font-bold md:mt-10 pb-8'>
+                    <BankDetails/>
                     <RegistrationDetails/>
                 </div>
             </div>
