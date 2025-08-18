@@ -60,7 +60,7 @@ const Regfee = () => {
             <div className="w-full sm:mt-0 md:py-20 py-5">
                 <div className="w-full">
                     <h2 className="w-full text-3xl text-center text-blue-600 font-semibold text-blue-50-600 md:text-4xl pb-10">
-                        Registration Fee*  (Early Bird, till 20.08.2025)
+                        Registration Fee*  (Early Bird, till 31.08.2025)
                     </h2>
                 </div>
                 <div className="p-6 max-w-7xl mx-auto">
