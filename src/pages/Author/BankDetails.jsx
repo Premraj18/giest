@@ -42,7 +42,7 @@ const PaymentDetails = () => {
 
     return (
         <div>
-            <div className="w-full sm:mt-0 md:pb-20 py-5">
+            <div className="w-full sm:mt-0 md:pb-20 py-10">
                 <div className="w-full">
                     <h2 className="w-full text-3xl text-center text-blue-600 font-semibold text-blue-50-600 md:text-4xl pb-10">
                         Conference Registration Fee Payment Details
