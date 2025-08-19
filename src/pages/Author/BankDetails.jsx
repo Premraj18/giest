@@ -54,13 +54,13 @@ const PaymentDetails = () => {
                         <table className="min-w-full border border-gray-300">
                             <thead>
                             <tr className="bg-gray-100 text-gray-700 text-sm">
-                                <th className="border p-2">Field</th>
-                                <th className="border p-2">Details</th>
+                                <th className="border p-2 text-xl">Field</th>
+                                <th className="border p-2 text-xl">Details</th>
                             </tr>
                             </thead>
                             <tbody>
                             {paymentData.map((row, index) => (
-                                <tr key={index} className="text-center text-sm">
+                                <tr key={index} className="text-center text-lg">
                                     <td className="border p-2">{row.field}</td>
                                     <td className="border p-2">{row.details}</td>
                                 </tr>

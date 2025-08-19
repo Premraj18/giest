@@ -90,7 +90,7 @@ const Regfee2 = () => {
                                             </td>
                                         </tr>
                                         {group.entries.map((entry, index) => (
-                                            <tr key={index} className="text-center text-sm">
+                                            <tr key={index} className="text-center text-lg">
                                                 <td className="border p-2">{entry.title}</td>
                                                 <td className="border p-2">{entry.virtualIEEE}</td>
                                                 <td className="border p-2">{entry.virtualNonIEEE}</td>
