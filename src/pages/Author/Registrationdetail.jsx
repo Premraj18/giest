@@ -17,8 +17,8 @@ const Registrationdetails = () => {
                     of required registration fee</p>
                 </div>
                 <div className='md:px-20 px-2 font-bold md:mt-10 pb-8'>
-                    <BankDetails/>
                     <RegistrationDetails/>
+                    <BankDetails/>
                 </div>
             </div>
         </Layout>

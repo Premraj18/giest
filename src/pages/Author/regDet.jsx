@@ -20,7 +20,7 @@ const RegistrationDetails = () => {
   return (
     <div className="">
       <h1 className="md:text-4xl text-3xl font-bold mb-4 text-center text-blue-700">Registration Details for GIEST 2025</h1>
-      <ol className="list-decimal list-inside space-y-4 font-medium text-gray-800">
+      <ol className="list-decimal list-inside space-y-4 font-medium text-lg text-gray-800">
         {points.map((point, index) => (
           <li key={index}>{point}</li>
         ))}
