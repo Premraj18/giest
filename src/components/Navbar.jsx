@@ -201,6 +201,12 @@ export default function Navbar() {
                   >
                     Registration details
                   </Link>
+                    <Link
+                        to="/camerareadysub"
+                        className="block px-4 py-2 hover:bg-gray-100"
+                    >
+                        Camera ready submission
+                    </Link>
                   <Link
                     to="/studentravelgrant"
                     className="block px-4 py-2 hover:bg-gray-100"
@@ -214,12 +220,6 @@ export default function Navbar() {
                     Best Paper Awards
                   </Link>
                   <Link
-                    to="/camerareadysub"
-                    className="block px-4 py-2 hover:bg-gray-100"
-                  >
-                    Camera ready submission
-                  </Link>
-                  <Link
                     to="/regform"
                     className="block px-4 py-2 hover:bg-gray-100"
                   >
@@ -229,7 +229,7 @@ export default function Navbar() {
                     to="/presdetail"
                     className="block px-4 py-2 hover:bg-gray-100"
                   >
-                    Presentaion Details
+                    Presentation Details
                   </Link>
                 </div>
               )}
