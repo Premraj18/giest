@@ -10,6 +10,7 @@ import RunningTab2 from '../components/RunTab2'
 import {Link, useNavigate} from 'react-router-dom'
 import {Navigate} from 'react-router-dom'
 import TopLink from '../components/TopLink'
+import {Button} from "@headlessui/react";
 
 const Home = () => {
 
@@ -29,12 +30,14 @@ const Home = () => {
                 Registration for GIEST - 2025
             </TopLink>
 
-            <TopLink
-                to="/camerareadysub"
+            <Link
+                onClick={() => {
+                    window.open("public/cameraReady.pdf", "_blank");
+                }}
                 className="text-blue-600 hover:text-blue-800 underline font-medium transition-colors"
             >
                 Camera Ready Submission Instructions
-            </TopLink>
+            </Link>
         </div>
 
 
