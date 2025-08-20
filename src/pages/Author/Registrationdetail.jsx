@@ -9,6 +9,9 @@ const Registrationdetails = () => {
          <Layout>
             <div className='min-h-[80vh] pt-44 flex flex-col justify-center bg-gray-50'>
                 <p className='text-2xl md:text-4xl font-bold text-center underline' >Registration Details</p>
+                <div className='md:px-20 px-2 font-bold md:mt-10 pb-8'>
+                    <RegistrationDetails/>
+                </div>
                 <Regfee/>
                 <Regfee2/>
                 <div className='md:px-20 px-2 md:-mt-10 pb-8'>
@@ -17,7 +20,6 @@ const Registrationdetails = () => {
                     of required registration fee</p>
                 </div>
                 <div className='md:px-20 px-2 font-bold md:mt-10 pb-8'>
-                    <RegistrationDetails/>
                     <BankDetails/>
                 </div>
             </div>
