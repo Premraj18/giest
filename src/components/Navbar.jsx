@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import { Fragment, useContext, useRef, useState } from 'react'
 // eslint-disable-next-line no-unused-vars
-import { Dialog, Transition } from '@headlessui/react'
+import {Button, Dialog, Transition} from '@headlessui/react'
 import { Link, useLocation } from 'react-router-dom'
 import { BsFacebook, BsInstagram, BsLinkedin, BsWhatsapp } from 'react-icons/bs'
 import { RxCross2 } from 'react-icons/rx'
@@ -202,10 +202,11 @@ export default function Navbar() {
                     Registration details
                   </Link>
                     <Link
-                        to="/camerareadysub"
+                        onClick={() => {
+                            window.open("public/cameraReady.pdf", "_blank");
+                        }}
                         className="block px-4 py-2 hover:bg-gray-100"
-                    >
-                        Camera ready submission
+                    >Camera ready submission
                     </Link>
                   <Link
                     to="/studentravelgrant"
@@ -453,10 +454,11 @@ export default function Navbar() {
                       Best Paper Awards
                     </Link>
                     <Link
-                      to="/camerareadysub"
+                        onClick={() => {
+                            window.open("public/cameraReady.pdf", "_blank");
+                        }}
                       className="block px-4 py-2 hover:bg-gray-100"
-                    >
-                      Camera ready submission
+                    >Camera ready submission
                     </Link>
                     <Link
                       to="/regform"
