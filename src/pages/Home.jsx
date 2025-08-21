@@ -32,7 +32,7 @@ const Home = () => {
 
             <Link
                 onClick={() => {
-                    window.open("public/cameraReady.pdf", "_blank");
+                    window.open("/cameraReady.pdf", "_blank");
                 }}
                 className="text-blue-600 hover:text-blue-800 underline font-medium transition-colors"
             >

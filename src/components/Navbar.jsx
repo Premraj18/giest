@@ -199,11 +199,11 @@ export default function Navbar() {
                     to="/registrationdetail"
                     className="block px-4 py-2 hover:bg-gray-100"
                   >
-                    Registration details
+                      Registration details and Form link
                   </Link>
                     <Link
                         onClick={() => {
-                            window.open("public/cameraReady.pdf", "_blank");
+                            window.open("/cameraReady.pdf", "_blank");
                         }}
                         className="block px-4 py-2 hover:bg-gray-100"
                     >Camera ready submission
@@ -219,12 +219,6 @@ export default function Navbar() {
                     className="block px-4 py-2 hover:bg-gray-100"
                   >
                     Best Paper Awards
-                  </Link>
-                  <Link
-                    to="/regform"
-                    className="block px-4 py-2 hover:bg-gray-100"
-                  >
-                    Registration form
                   </Link>
                   <Link
                     to="/presdetail"
@@ -439,7 +433,7 @@ export default function Navbar() {
                       to="/registrationdetail"
                       className="block px-4 py-2 hover:bg-gray-100"
                     >
-                      Registration details
+                      Registration details and Form link
                     </Link>
                     <Link
                       to="/studentravelgrant"
@@ -455,7 +449,7 @@ export default function Navbar() {
                     </Link>
                     <Link
                         onClick={() => {
-                            window.open("public/cameraReady.pdf", "_blank");
+                            window.open("/cameraReady.pdf", "_blank");
                         }}
                       className="block px-4 py-2 hover:bg-gray-100"
                     >Camera ready submission
