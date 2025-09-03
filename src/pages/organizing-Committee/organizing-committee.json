@@ -4,7 +4,7 @@
     "name": "Prof. Goutam Sutradhar",
     "designation": "Chief Patron",
     "address": "Director, NIT Jamshedpur",
-    "photo": "organizing-committee/img1.png"
+    "photo": "organizing-committee/director_img.jpg"
   },
   {
     "id": "2",
@@ -513,7 +513,7 @@
   {
     "id": "74",
     "name": "Dr. Vima Mali",
-    "designation": "WIE Co-Chair",
+    "designation": "WIE Chair",
     "address": "PDEU, Gujarat",
     "photo": "organizing-committee/img74.png"
   },
@@ -523,5 +523,12 @@
     "designation": "WIE Co-Chair",
     "address": "CDAC Bangalore",
     "photo": "organizing-committee/img75.png"
+  },
+  {
+    "id": "76",
+    "name": "Dr. Sonam Acharya",
+    "designation": "WIE Co-Chair",
+    "address": "IIT (ISM) Dhanbad",
+    "photo": "organizing-committee/img76.png"
   }
 ]

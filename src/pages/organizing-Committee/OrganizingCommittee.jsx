@@ -38,7 +38,7 @@ const OrganizingCommittee = () => {
                                         <img
                                             src={e.photo}
                                             alt={e.name}
-                                            className='w-[115px] h-28 md:w-28 md:h-28 rounded-full object-cover shadow-2xl'
+                                            className='w-[128px] h-32 md:w-32 md:h-32 rounded-full object-cover shadow-2xl'
                                         />
                                         <div className='flex flex-col items-center justify-center gap-2 text-center'>
                                             <h2 className='text-lg font-semibold'>{e.name}</h2>
