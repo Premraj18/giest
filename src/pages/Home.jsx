@@ -25,7 +25,7 @@ const Home = () => {
         <div className="flex flex-col gap-3 p-4 items-center">
             <TopLink
                 to="/registrationdetail"
-                className="text-blue-600 hover:text-blue-800 underline font-medium transition-colors"
+                className="text-blue-600 hover:text-blue-800 underline font-medium  transition-colors text-2xl "
             >
                 Registration for GIEST - 2025
             </TopLink>
@@ -34,7 +34,7 @@ const Home = () => {
                 onClick={() => {
                     window.open("/cameraReady.pdf", "_blank");
                 }}
-                className="text-blue-600 hover:text-blue-800 underline font-medium transition-colors"
+                className="text-blue-600 hover:text-blue-800 underline font-medium transition-colors text-2xl"
             >
                 Camera Ready Submission Instructions
             </Link>
