@@ -15,7 +15,7 @@ const KeyNoteSpeakers = () => {
             name: "Professor Faz Rahman",
             title: "Professor",
             affiliation: "School of Electrical Engineering & Telecommunication, UNSW Sydney, Australia",
-            topic: "Will be within the scope of the Conference theme",
+            topic: "Will be updated soon",
             image: "/keynote-speakers/faz_rahman.png"
         },
         {
