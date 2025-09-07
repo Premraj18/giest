@@ -65,13 +65,13 @@ export default function Navbar() {
   const [dropdownOpen4, setDropdownOpen4] = useState(false);
 
   return (
-    <motion.header className='w-full py-1 fixed top-0 z-10 sm:px-10 px-5 flex justify-between items-center'
+    <motion.header className='w-full py-2 fixed top-0 z-10 sm:px-10 px-5 flex justify-between items-center backdrop-blur-md'
       variants={{
-        visible: { background: 'white', boxShadow: '0px 0.01px 5px rgba(24, 22, 22, 0.155)', color: 'black' },
-        hidden: { background: 'white', boxShadow: '0px 0.01px 5px rgba(24, 22, 22, 0.155)', color: 'black' },
+        visible: { background: 'rgba(255, 255, 255, 0.95)', boxShadow: '0px 4px 20px rgba(0, 0, 0, 0.1)', color: 'black' },
+        hidden: { background: 'rgba(255, 255, 255, 0.95)', boxShadow: '0px 4px 20px rgba(0, 0, 0, 0.1)', color: 'black' },
       }}
       animate={hidden ? "hidden" : "visible"}
-      transition={{ duration: 0.1, }}
+      transition={{ duration: 0.3, }}
     >
       <nav className='flex flex-col md:flex-row w-full md:justify-center justify-between items-center screen-max-width'>
 
@@ -134,22 +134,22 @@ export default function Navbar() {
 
               {/* Dropdown Menu */}
               {dropdownOpen && (
-                <div className="absolute mt-2 bg-white text-gray-800 rounded shadow-lg w-40">
+                <div className="absolute mt-2 bg-white text-gray-800 rounded-lg shadow-xl w-48 border border-gray-100 backdrop-blur-sm">
                   <Link
                     to="/international-advisory-committee"
-                    className="block px-4 py-2 hover:bg-gray-100"
+                    className="block px-4 py-3 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-200 text-sm font-medium"
                   >
                     International advisory committee
                   </Link>
                   <Link
                     to="/national-advisory-committee"
-                    className="block px-4 py-2 hover:bg-gray-100"
+                    className="block px-4 py-3 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-200 text-sm font-medium"
                   >
                     National advisory committee
                   </Link>
                   <Link
                     to="/organizing-Committee"
-                    className="block px-4 py-2 hover:bg-gray-100"
+                    className="block px-4 py-3 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-200 text-sm font-medium"
                   >
                     Organizing Committee
                   </Link>
@@ -188,16 +188,16 @@ export default function Navbar() {
 
               {/* Dropdown Menu */}
               {dropdownOpen3 && (
-                <div className="absolute mt-2 bg-white text-gray-800 rounded shadow-lg w-40">
+                <div className="absolute mt-2 bg-white text-gray-800 rounded-lg shadow-xl w-52 border border-gray-100 backdrop-blur-sm">
                   <Link
                     to="/callforpaper"
-                    className="block px-4 py-2 hover:bg-gray-100"
+                    className="block px-4 py-3 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-200 text-sm font-medium"
                   >
                     Call for Papers
                   </Link>
                   <Link
                     to="/registrationdetail"
-                    className="block px-4 py-2 hover:bg-gray-100"
+                    className="block px-4 py-3 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-200 text-sm font-medium"
                   >
                       Registration details and Form link
                   </Link>
@@ -205,24 +205,24 @@ export default function Navbar() {
                         onClick={() => {
                             window.open("/cameraReady.pdf", "_blank");
                         }}
-                        className="block px-4 py-2 hover:bg-gray-100"
+                        className="block px-4 py-3 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-200 text-sm font-medium"
                     >Camera ready submission
                     </Link>
                   <Link
                     to="/studentravelgrant"
-                    className="block px-4 py-2 hover:bg-gray-100"
+                    className="block px-4 py-3 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-200 text-sm font-medium"
                   >
                     Student Travel Grant
                   </Link>
                   <Link
                     to="/bestpaperaward"
-                    className="block px-4 py-2 hover:bg-gray-100"
+                    className="block px-4 py-3 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-200 text-sm font-medium"
                   >
                     Best Paper Awards
                   </Link>
                   <Link
                     to="/presdetail"
-                    className="block px-4 py-2 hover:bg-gray-100"
+                    className="block px-4 py-3 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-200 text-sm font-medium"
                   >
                     Presentation Details
                   </Link>
@@ -256,16 +256,16 @@ export default function Navbar() {
 
               {/* Dropdown Menu */}
               {dropdownOpen2 && (
-                <div className="absolute mt-2 bg-white text-gray-800 rounded shadow-lg w-40">
+                <div className="absolute mt-2 bg-white text-gray-800 rounded-lg shadow-xl w-48 border border-gray-100 backdrop-blur-sm">
                   <Link
                     to="/specialSession"
-                    className="block px-4 py-2 hover:bg-gray-100"
+                    className="block px-4 py-3 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-200 text-sm font-medium"
                   >
                     Call for Special Session
                   </Link>
                   <Link
                     to="/approvedsession"
-                    className="block px-4 py-2 hover:bg-gray-100"
+                    className="block px-4 py-3 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-200 text-sm font-medium"
                   >
                     Approved Special Session
                   </Link>
@@ -299,16 +299,16 @@ export default function Navbar() {
 
               {/* Dropdown Menu */}
               {dropdownOpen4 && (
-                <div className="absolute mt-2 bg-white text-gray-800 rounded shadow-lg w-40">
+                <div className="absolute mt-2 bg-white text-gray-800 rounded-lg shadow-xl w-44 border border-gray-100 backdrop-blur-sm">
                   <Link
                     to="/keyspeak"
-                    className="block px-4 py-2 hover:bg-gray-100"
+                    className="block px-4 py-3 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-200 text-sm font-medium"
                   >
                     Keynote Speaker
                   </Link>
                   <Link
                     to="/tutspeak"
-                    className="block px-4 py-2 hover:bg-gray-100"
+                    className="block px-4 py-3 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-200 text-sm font-medium"
                   >
                     Tutorial Speaker
                   </Link>
@@ -336,10 +336,10 @@ export default function Navbar() {
         <div onClick={toggleCart} className='cursor-pointer md:hidden font-semibold md:absolute md:right-0 md:mx-8 md:mt-0'>
           <button className={`${subpage === 'home' && hidden == !true ? 'text-black' : 'text-black'}`}><FiMenu size={30} /></button>
         </div>
-        <div ref={ref} className="w-full md:hidden h-[100vh] sideCart bg-white absolute top-0 right-0 py-10 transition-transform transform translate-x-full ">
+        <div ref={ref} className="w-full md:hidden h-[100vh] sideCart bg-white/95 backdrop-blur-lg absolute top-0 right-0 py-10 transition-transform transform translate-x-full shadow-2xl border-l border-gray-200">
           <span onClick={toggleCart} className="absolute top-8 right-4 cursor-pointer"><RxCross2 size={30} /></span>
-          <div className='flex flex-col border-t-2 py-5 justify-center items-center mt-12 gap-10'>
-            <div className='flex flex-col text-lg items-center justify-center gap-y-5'>
+          <div className='flex flex-col border-t border-gray-200 py-8 justify-center items-center mt-12 gap-8 px-6'>
+            <div className='flex flex-col text-lg items-center justify-center gap-y-6 w-full max-w-xs'>
               <Link to={'/'} className={Linkness('home')}>
                 <p className={`text-base text-black`}>Home</p>
               </Link>
@@ -373,19 +373,19 @@ export default function Navbar() {
                   <div className="absolute mt-2 bg-white text-gray-800 rounded shadow-lg w-40">
                     <Link
                       to="/international-advisory-committee"
-                      className="block px-4 py-2 hover:bg-gray-100"
+                      className="block px-4 py-3 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-200 text-sm font-medium"
                     >
                       International advisory committee
                     </Link>
                     <Link
                       to="/national-advisory-committee"
-                      className="block px-4 py-2 hover:bg-gray-100"
+                      className="block px-4 py-3 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-200 text-sm font-medium"
                     >
                       National advisory committee
                     </Link>
                     <Link
                       to="/organizing-Committee"
-                      className="block px-4 py-2 hover:bg-gray-100"
+                      className="block px-4 py-3 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-200 text-sm font-medium"
                     >
                       Organizing Committee
                     </Link>
@@ -425,25 +425,25 @@ export default function Navbar() {
                   <div className="absolute mt-2 bg-white text-gray-800 rounded shadow-lg w-40">
                     <Link
                       to="/callforpaper"
-                      className="block px-4 py-2 hover:bg-gray-100"
+                      className="block px-4 py-3 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-200 text-sm font-medium"
                     >
                       Call for Papers
                     </Link>
                     <Link
                       to="/registrationdetail"
-                      className="block px-4 py-2 hover:bg-gray-100"
+                      className="block px-4 py-3 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-200 text-sm font-medium"
                     >
                       Registration details and Form link
                     </Link>
                     <Link
                       to="/studentravelgrant"
-                      className="block px-4 py-2 hover:bg-gray-100"
+                      className="block px-4 py-3 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-200 text-sm font-medium"
                     >
                       Student Travel Grant
                     </Link>
                     <Link
                       to="/bestpaperaward"
-                      className="block px-4 py-2 hover:bg-gray-100"
+                      className="block px-4 py-3 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-200 text-sm font-medium"
                     >
                       Best Paper Awards
                     </Link>
@@ -451,18 +451,18 @@ export default function Navbar() {
                         onClick={() => {
                             window.open("/cameraReady.pdf", "_blank");
                         }}
-                      className="block px-4 py-2 hover:bg-gray-100"
+                      className="block px-4 py-3 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-200 text-sm font-medium"
                     >Camera ready submission
                     </Link>
                     <Link
                       to="/regform"
-                      className="block px-4 py-2 hover:bg-gray-100"
+                      className="block px-4 py-3 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-200 text-sm font-medium"
                     >
                       Registration form
                     </Link>
                     <Link
                       to="/presdetail"
-                      className="block px-4 py-2 hover:bg-gray-100"
+                      className="block px-4 py-3 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-200 text-sm font-medium"
                     >
                       Presentaion Details
                     </Link>
@@ -499,13 +499,13 @@ export default function Navbar() {
                   <div className="absolute mt-2 bg-white text-gray-800 rounded shadow-lg w-40">
                     <Link
                       to="/specialSession"
-                      className="block px-4 py-2 hover:bg-gray-100"
+                      className="block px-4 py-3 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-200 text-sm font-medium"
                     >
                       Call for Special Session
                     </Link>
                     <Link
                       to="/approvedsession"
-                      className="block px-4 py-2 hover:bg-gray-100"
+                      className="block px-4 py-3 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-200 text-sm font-medium"
                     >
                       Approved Special Session
                     </Link>
@@ -542,13 +542,13 @@ export default function Navbar() {
                   <div className="absolute mt-2 bg-white text-gray-800 rounded shadow-lg w-40">
                     <Link
                       to="/keyspeak"
-                      className="block px-4 py-2 hover:bg-gray-100"
+                      className="block px-4 py-3 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-200 text-sm font-medium"
                     >
                       Keynote Speaker
                     </Link>
                     <Link
                       to="/tutspeak"
-                      className="block px-4 py-2 hover:bg-gray-100"
+                      className="block px-4 py-3 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-200 text-sm font-medium"
                     >
                       Tutorial Speaker
                     </Link>
