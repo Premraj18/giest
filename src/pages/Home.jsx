@@ -22,22 +22,62 @@ const Home = () => {
       <RunningTab text="“2025 IEEE 2nd International Conference on Green Industrial Electronics and Sustainable Technologies” will be organized by the Electrical Engineering Department, NIT Jamshedpur from 11th to 13th October 2025 in"/>
       <RunningTab2 text="The camera ready paper submission and early bird registration date is extended till 08/09/2025"/>
 
-        <div className="flex flex-col gap-3 p-4 items-center">
-            <TopLink
-                to="/registrationdetail"
-                className="text-blue-600 hover:text-blue-800 underline font-medium  transition-colors text-2xl "
-            >
-                Registration for GIEST - 2025
-            </TopLink>
+        <div className="bg-gradient-to-br from-blue-50 to-purple-50 py-16 px-4">
+            <div className="max-w-4xl mx-auto">
+                <div className="text-center mb-12">
+                    <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
+                        Quick Actions
+                    </h2>
+                    <div className="w-24 h-1 bg-gradient-to-r from-blue-500 to-purple-600 mx-auto mb-2"></div>
+                    <div className="w-12 h-0.5 bg-gray-300 mx-auto"></div>
+                </div>
+                
+                <div className="grid md:grid-cols-2 gap-6 max-w-3xl mx-auto">
+                    <TopLink
+                        to="/registrationdetail"
+                        className="group bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 p-6 border border-gray-100 hover:border-blue-200 transform hover:-translate-y-1"
+                    >
+                        <div className="flex items-center justify-between">
+                            <div>
+                                <h3 className="text-xl font-semibold text-gray-800 group-hover:text-blue-600 transition-colors mb-2">
+                                    Registration for GIEST - 2025
+                                </h3>
+                                <p className="text-gray-600 text-sm">
+                                    Register for the conference and secure your spot
+                                </p>
+                            </div>
+                            <div className="text-blue-500 group-hover:text-blue-600 transform group-hover:scale-110 transition-all">
+                                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                                </svg>
+                            </div>
+                        </div>
+                    </TopLink>
 
-            <Link
-                onClick={() => {
-                    window.open("/cameraReady.pdf", "_blank");
-                }}
-                className="text-blue-600 hover:text-blue-800 underline font-medium transition-colors text-2xl"
-            >
-                Camera Ready Submission Instructions
-            </Link>
+                    <Link
+                        onClick={() => {
+                            window.open("/cameraReady.pdf", "_blank");
+                        }}
+                        className="group bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 p-6 border border-gray-100 hover:border-purple-200 transform hover:-translate-y-1 cursor-pointer"
+                    >
+                        <div className="flex items-center justify-between">
+                            <div>
+                                <h3 className="text-xl font-semibold text-gray-800 group-hover:text-purple-600 transition-colors mb-2">
+                                    Camera Ready Submission
+                                </h3>
+                                <p className="text-gray-600 text-sm">
+                                    Guidelines for final paper submission
+                                </p>
+                            </div>
+                            <div className="text-purple-500 group-hover:text-purple-600 transform group-hover:scale-110 transition-all">
+                                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                                </svg>
+                            </div>
+                        </div>
+                    </Link>
+                </div>
+            </div>
         </div>
 
 

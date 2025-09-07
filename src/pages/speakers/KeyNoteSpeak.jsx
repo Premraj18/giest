@@ -24,6 +24,7 @@ const KeyNoteSpeakers = () => {
             title: "Research and Teaching Assistant",
             affiliation: "McMaster University, Hamilton, Ontario, Canada",
             additionalInfo: "IAS Society Board Member, Chair, Chapter and Membership (CMD)",
+            topic: "will be updated soon",
             image: "/keynote-speakers/dr_srikanth_pilai.png"
         },
         {
@@ -39,6 +40,7 @@ const KeyNoteSpeakers = () => {
             name: "Prof. Celia Shahnaz",
             title: "Professor",
             affiliation: "Department of EEE, BUET, Bangladesh",
+            topic: "will be updated soon",
             image: "/keynote-speakers/celia_shahnaz.png"
         },
         {
