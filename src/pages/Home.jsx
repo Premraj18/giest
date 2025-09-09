@@ -76,10 +76,31 @@ const Home = () => {
                             </div>
                         </div>
                     </Link>
+                    <Link
+                        to="https://forms.gle/AMu59H38hAa562kJA"
+                        target="_blank"
+                        className="group bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 p-6 border border-gray-100 hover:border-blue-200 transform hover:-translate-y-1"
+                    >
+                        <div className="flex items-center justify-between">
+                            <div>
+                                <h3 className="text-xl font-semibold text-gray-800 group-hover:text-blue-600 transition-colors mb-2">
+                                    IEEE Student Travel Grant Registration form
+                                </h3>
+                                <p className="text-red-600 text-sm">
+                                    (Deadline 25.09.2025)
+                                </p>
+                            </div>
+                            <div className="text-blue-500 group-hover:text-blue-600 transform group-hover:scale-110 transition-all">
+                                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                                </svg>
+                            </div>
+                        </div>
+                    </Link>
+
                 </div>
             </div>
         </div>
-
 
       <About/>
       <Countdown/>

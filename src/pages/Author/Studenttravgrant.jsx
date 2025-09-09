@@ -6,6 +6,7 @@ const Studenttragrant = () => {
         <Layout>
             <div className='min-h-[80vh] pt-44 flex flex-col bg-gray-50 md:px-36 px-2 gap-4'>
                 <p className='text-2xl md:text-4xl font-semibold' >Students Travel Grant</p>
+                <a href="https://forms.gle/AMu59H38hAa562kJA" className="text-blue-600">IEEE Student Travel Grant Registration form</a> <span className="text-red-500">(Deadline 25.09.2025)</span>
                 <div className='flex flex-col gap-x-5'>
                     <p className='text-justify'>The IEEE Students Travel Grant aims to support student participation in IEEE conferences by
                         providing financial assistance for paper registration fees and/or travel expenses. This initiative
@@ -52,9 +53,7 @@ const Studenttragrant = () => {
                             enrolment certificate), acceptance letter or email from the conference organizers 
                             confirming their paper acceptance and participation, and a budget outlining 
                             anticipated paper registration fee and travel expenses.</p> 
-                            <p>Deadline: Applications must be submitted by the specified deadline (will be 
-                            announced soon), typically several days before the conference date. Late 
-                            applications will not be considered. </p>
+                            <p className="text-red-600">Deadline: Applications must be submitted by the specified deadline 25.09.2025 (11:59 PM). Late applications will not be considered.</p>
                         </div>
                     </div>
 
