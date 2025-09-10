@@ -76,7 +76,6 @@ const Home = () => {
                             </div>
                         </div>
                     </Link>
-
                     <Link
                         to="https://forms.gle/AMu59H38hAa562kJA"
                         target="_blank"
@@ -98,10 +97,10 @@ const Home = () => {
                             </div>
                         </div>
                     </Link>
+
                 </div>
             </div>
         </div>
-
 
       <About/>
       <Countdown/>
