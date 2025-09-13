@@ -316,15 +316,15 @@ export default function Navbar() {
               )}
             </div>
 
-            <Link to={'/workshop'} className={Linkness('workshop')}>
-              <p className={`text-base text-black`}>Workshop&Tutorials </p>
-            </Link>
+            {/*<Link to={'/workshop'} className={Linkness('workshop')}>*/}
+            {/*  <p className={`text-base text-black`}>Workshop&Tutorials </p>*/}
+            {/*</Link>*/}
             <Link to={'/sponsorship'} className={Linkness('sponsorship')}>
               <p className={`text-base text-black`}>Sponsorship </p>
             </Link>
-            {/* <Link to={'/accomodation'} className={Linkness('accomodation')}>
-              <p className={`text-base text-black`}>Accomodation </p>
-            </Link> */}
+            <Link to={'/accomodation'} className={Linkness('accomodation')}>
+              <p className={`text-base text-black`}>Accommodation </p>
+            </Link>
             <Link to={'/placetovisit'} className={Linkness('placetovisit')}>
               <p className={`text-base text-black`}>Place to Visit </p>
             </Link>
@@ -562,18 +562,20 @@ export default function Navbar() {
                 <p className={`text-base text-black`}>Authors </p>
               </Link> */}
 
-              <Link to={'/workshop'} className={Linkness('workshop')}>
-                <p className={`text-base text-black`}>Workshop&Tutorials </p>
-              </Link>
+              {/*<Link to={'/workshop'} className={Linkness('workshop')}>*/}
+              {/*  <p className={`text-base text-black`}>Workshop&Tutorials </p>*/}
+              {/*</Link>*/}
               <Link to={'/sponsorship'} className={Linkness('sponsorship')}>
                 <p className={`text-base text-black`}>Sponsorship </p>
               </Link>
-              {/* <Link to={'/accomodation'} className={Linkness('accomodation')}>
-                <p className={`text-base text-black`}>Accomodation </p>
-              </Link> */}
+               <Link to={'/accomodation'} className={Linkness('accomodation')}>
+                <p className={`text-base text-black`}>Accommodation </p>
+              </Link>
               <Link to={'/placetovisit'} className={Linkness('placetovisit')}>
                 <p className={`text-base text-black`}>Place to Visit </p>
               </Link>
+
+
 
             </div>
           </div>
