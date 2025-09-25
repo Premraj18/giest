@@ -17,9 +17,7 @@ The website is designed to provide event details, registration portals, announce
 ## 🛠 Tech Stack
 The website is built with modern technologies to ensure performance and scalability:
 
-- **Frontend:** React.js / Next.js, Tailwind CSS  
-- **Backend:** Node.js / Express  
-- **Database:** MongoDB / PostgreSQL  
+- **Frontend:** React.js / Next.js, Tailwind CSS   
 - **Hosting:** Vercel / Netlify / AWS (depending on deployment)  
 
 ---
