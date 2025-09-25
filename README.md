@@ -2,6 +2,7 @@
 
 This repository contains the source code for the **GIEST Website**, the official online platform of GIEST Fest.  
 The website is designed to provide event details, registration portals, announcements, and an engaging user experience for participants.
+Its developed and deployed under nit jsr
 
 ---
 
