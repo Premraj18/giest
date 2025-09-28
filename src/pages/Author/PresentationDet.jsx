@@ -18,7 +18,7 @@ const PresentationDet = () => {
         {
             id: 2,
             title: "PPT Template",
-            url: "/public/GIEST_PPT_Template.pptx",
+            url: "/GIEST_PPT_Template.pptx",
             description: "Official presentation template for GIEST 2025",
             instruction: "Download"
         }
