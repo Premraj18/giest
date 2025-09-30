@@ -102,6 +102,9 @@ export default function Navbar() {
             <Link to='/'>
               <img src={`${subpage === '' && hidden == !true ? '/ieeesil.png' : '/ieeesil.png'}`} alt="img" className={`md:w-32 w-10`} />
             </Link>
+              <Link to='/'>
+                  <img src={`${subpage === '' && hidden == !true ? '/ieee_kolkata_section.png' : '/ieee_kolkata_section.png'}`} alt="img" className={`md:w-20 w-10`} />
+              </Link>
           </div>
           <div className='md:flex flex-1 justify-end items-center mr-3 space-x-10 mb-2 hidden'>
             <Link to={'/'} className={Linkness('home')}>
