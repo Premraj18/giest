@@ -105,7 +105,7 @@ const Home = () => {
                         <div className="flex items-center justify-between">
                             <div>
                                 <h3 className="text-xl font-semibold text-gray-800 group-hover:text-blue-600 transition-colors mb-2">
-                                    Presentation Details
+                                    Presentation Details <span className="text-red-400 text-sm">(for virtual participation only)</span>
                                 </h3>
                                 <p className="text-gray-600 text-sm">
                                     Submission of PPT and MP4 Files – GIEST 2025
