@@ -25,7 +25,7 @@ const Studenttragrant = () => {
                             <p>2. <span className='font-semibold'>IEEE Membership</span>: Applicants must be active IEEE student members. Non
                                 members are encouraged to join IEEE prior to applying.</p>
                             <p>3. <span className='font-semibold'>Conference Participation:</span> Applicants (i.e. student only) must be presenting a
-                                paper, poster, or participating in a significant manner at an IEEE GIEST 2025
+                                paper, poster, or participating in a significant manner in <span className="bg-yellow-300">physical mode</span> at an IEEE GIEST 2025
                                 conference and paper should be fully registered by the presenting student only.</p>
                             <p>4. <span className='font-semibold'>Approval:</span> The approval will be given to the student authors of the full papers which
                                 are submitted in the GIEST 2025 conference on or before the due date and accepted
@@ -33,7 +33,7 @@ const Studenttragrant = () => {
                             <p>5. It is not necessarily required that all the authors must be the student authors in the
                                 paper. Any authors are permissible but the applicant of STG must be an author of
                                 the accepted paper, duly registered by him or her and attending the conference in
-                                physical mode.</p>
+                                <span className="bg-yellow-300"> physical mode</span>.</p>
                             <p>6. Applicant MUST reside outside (min. 100 Kms distant) the city (i.e. Jamshedpur) in
                                 which the conference is held and attend the conference physically.</p>
                             <p>7. The STG will be given to the recipient whose to-and-fro journey from the parental
