@@ -119,6 +119,56 @@ const Home = () => {
                         </div>
                     </TopLink>
 
+
+
+
+                    <Link
+                        onClick={() => {
+                            window.open("/final_schedule.pdf", "_blank");
+                        }}
+                        className="group bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 p-6 border border-gray-100 hover:border-purple-200 transform hover:-translate-y-1 cursor-pointer"
+                    >
+                        <div className="flex items-center justify-between">
+                            <div>
+                                <h3 className="text-xl font-semibold text-gray-800 group-hover:text-purple-600 transition-colors mb-2">
+                                    Programme Schedule
+                                </h3>
+                               < p className="text-gray-600 text-sm">
+                                   Final Programme Schedule for GIEST 2025
+                            </p>
+                            </div>
+                            <div className="text-purple-500 group-hover:text-purple-600 transform group-hover:scale-110 transition-all">
+                                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                                </svg>
+                            </div>
+                        </div>
+                    </Link>
+
+
+                    <Link
+                        onClick={() => {
+                            window.open("/session_list.pdf", "_blank");
+                        }}
+                        className="group bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 p-6 border border-gray-100 hover:border-purple-200 transform hover:-translate-y-1 cursor-pointer"
+                    >
+                        <div className="flex items-center justify-between">
+                            <div>
+                                <h3 className="text-xl font-semibold text-gray-800 group-hover:text-purple-600 transition-colors mb-2">
+                                    Google Meet Links
+                                </h3>
+                                <p className="text-gray-600 text-sm">
+                                    Joining Google Meet link for the Inaugural/Tutorial/Keynote/Valedictory and all the parallel Technical Tracks.
+                                </p>
+                            </div>
+                            <div className="text-purple-500 group-hover:text-purple-600 transform group-hover:scale-110 transition-all">
+                                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                                </svg>
+                            </div>
+                        </div>
+                    </Link>
+
                 </div>
             </div>
         </div>
